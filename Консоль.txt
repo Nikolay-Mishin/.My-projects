@@ -1,0 +1,9 @@
+
+
+[Git | Cmder] mkdir console-project
+
+[Git | Cmder] cd !$
+
+[Git] mkdir -p {css,js}					[Cmder] mkdir css,js
+
+[Git] touch {css/main.css,js/main.js,index.html}	[Cmder] touch css/main.css js/main.js index.html
