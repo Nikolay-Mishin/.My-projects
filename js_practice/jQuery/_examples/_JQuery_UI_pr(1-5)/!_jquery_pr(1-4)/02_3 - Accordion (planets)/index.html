@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <title>Planets</title>
+</head>
+<body>
+<script>
+$(() => {
+    const container = $('<div>').appendTo('body');
+    for (const planet of planets.data) {
+      container
+        .append($('<h3>').text(planet.name))
+        .append($('<div>').html(`
+          Diameter: <b>${planet['diameter (km)']}</b><br>
+          Mass: <b>${planet['mass (Earth=1)']}</b><br>
+          From Sun: <b>${planet['mean distance from Sun (AU)']}</b><br>
+        `))
+    }
+    container.accordion({
+      collapsible: true,
+      active: true
+    });
+});
+</script>
+<script src="planets.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/*
+th - заголовок таблицы  tr -строка таблицы  td - ячейка таблицы 
+caption - наименование таблицы*/
+
+* {font-family: sans-serif;}
+
+body {
+    font-size: 20px;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+table {margin: 50px auto; empty-cells: hide;}
+
+caption {text-align: right;}
+
+td {
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 3px dashed rgb(218, 19, 19);
+    border-right: 1px dashed rgb(218, 19, 19);
+}
+
+th {padding: 10px 20px;  text-align: center;}
+
+.tr-1, .tr-2 {
+    background: rgb(82, 44, 1);
+    color: rgb(252, 251, 253);
+}
+  
+a {color: black; text-decoration: none;}
+
+tr:hover td {background: rgba(136, 86, 29, 0.61);}
+
+.header_straw_hat {
+    background-color: rgb(220, 253, 242);
+    height: 70px;
+    margin: 0;
+} 
+.header_straw_hat h2 {margin: 0;}
+
+h2 {
+    font-size: 30px; 
+    color: rgb(112, 252, 252);
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.3em;
+    color: rgb(83, 83, 83);
+}

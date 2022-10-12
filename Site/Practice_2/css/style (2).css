@@ -1,0 +1,77 @@
+/*
+th - заголовок таблицы  tr -строка таблицы  td - ячейка таблицы 
+caption - наименование таблицы*/
+
+* {font-family: sans-serif;}
+
+body {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+a {color: #9d9d9d; text-decoration: none;}
+a:hover {color: #988bb7; text-decoration: underline;}
+nav {padding: 0 30px;}
+nav a {margin: 0 30px;}
+
+.cur_link {pointer-events: none; cursor: default; color: rgba(179, 179, 179, .5);}
+
+/* ...................................... 
+    
+			INDEX
+    
+   ...................................... */
+
+table {margin: 50px auto; empty-cells: hide;}
+
+caption {text-align: right; font-weight: bold; font-style: italic;}
+
+td {
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 3px dashed rgb(218, 19, 19);
+    border-right: 1px dashed rgb(218, 19, 19);
+}
+
+th {padding: 10px 20px;  text-align: center;}
+
+.tr-1, .tr-2 {
+    background: rgb(82, 44, 1);
+    color: rgb(252, 251, 253);
+}
+
+
+tr:hover td {background: rgba(136, 86, 29, 0.61);}
+
+/* ...................................... 
+    
+			FEDORA | KLOSH | SOLOMA
+    
+   ...................................... */
+
+/* ------ header ------ */
+
+.header_straw_hat {
+    background-color: azure;
+    height: 70px;
+    margin: 0;
+} 
+.header_straw_hat h1 {margin: 0;}
+
+h1 {
+    font-size: 30px; 
+    color: #12cad1;
+    font-weight: bold;
+}
+
+/* ------ content ------ */
+
+p {
+    font-size: 20px;
+    line-height: 1.3em;
+    color: rgb(83, 83, 83);
+}
+
+i {margin-right: 10px;}
+.table_back {color: black;}
+.table_back:hover {color: green;}

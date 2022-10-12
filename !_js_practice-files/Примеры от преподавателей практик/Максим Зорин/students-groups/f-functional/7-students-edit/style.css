@@ -1,0 +1,20 @@
+
+.tabs > div {
+  display: none;
+}
+
+.tabs > div.active {
+  display: block;
+}
+
+.main-menu .active {
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}

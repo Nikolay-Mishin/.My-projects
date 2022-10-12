@@ -1,0 +1,149 @@
+* {box-sizing: border-box;}
+body {margin: 0; padding: 0;}
+
+.simbol::before {content: '\00AB';}
+.simbol::after {content: '\00BB';}
+
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+	font-family: san-serif;
+}
+.main {
+	background-color: rgb(255, 255, 255);
+	border-right: 2px solid rgb(79, 140, 255);
+	border-bottom: 2px solid rgb(79, 140, 255);
+	margin-bottom: 20px;
+}
+.main h3 {
+	margin: 0;
+}
+
+/* ------ HEADER ------ */
+
+header {
+	background-color: rgb(53, 155, 252);
+	height: 100px;
+}
+
+/* -- logo -- */
+
+.logo {float: left; left: 10%;}
+img {width: 50px;}
+
+/* -- nav -- */
+
+nav {float: right;}
+.nav {bottom: 10%;}
+ul {list-style: none; margin: 0;}
+li {display: inline-block; margin-right: 20px;}
+a {
+	color: rgb(206, 206, 206); 
+	text-decoration: none;
+	display: block;
+	font-weight: 500;
+}
+
+/* ------ LEFT SECTION ------ */
+
+.left_sec {
+	float: left;
+	width: 15%;
+	height: 100%;
+
+	padding: 10px;
+	/*border: 2px solid rgb(255, 253, 139);*/
+}
+.left_sec::before {float: left; content: url(../img/dw.png); padding-right: 10px;}
+
+.left_sec ul {padding: 0;}
+.left_sec li {display: block;}
+.left_sec li a {display: block; padding: 6px 0; color: #444;}
+.left_sec li a:hover {color: #f16529;}
+.left_sec h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+/* ------ ASIDE ------ */
+
+aside {
+	float: right; 
+	width: 20%;
+	height: 100%;
+
+	padding: 10px;
+	/*border: 2px solid rgb(255, 253, 139);*/
+}
+
+aside ul {padding: 0;}
+aside li {display: block;}
+aside li a {display: block; padding: 6px 0; color: #444;}
+aside li a:hover {color: #f16529;}
+aside h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+/* ------ MAIN ------ */
+
+.line {display: inline-block;}
+
+main {
+	max-width: 65%;
+	height: 100%;
+
+	padding: 10px;
+	/*border: 2px solid rgb(255, 253, 139);*/
+	border-left: 2px solid rgb(79, 140, 255);
+}
+
+.book {
+	max-height: 500px;
+	border: 1px solid rgb(0, 0, 0);
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.book img {width: 100%;}
+
+.img {
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-left: 10px;
+}
+.book_1 {
+	background-size: contain;
+	background-position: top center;
+}
+.book_2 {
+	background-size: contain;
+	background-position: top center;
+}
+.book_3 {
+	background-size: contain;
+	background-position: top center;
+}
+
+.content {
+	float: right;
+	max-width: 65%;
+}
+
+/* ------ FOOTER ------ */
+
+.no-img {height: 50px;}
+
+footer:not(.no-img) {
+	background-color: #f16529;
+	height: 100px;
+}
+footer a {color: white;}
+
+/* ------ очистка обтекания ------ */
+
+.clearfix::after, .clearfix::before {content: ''; display: block; clear: both;}

@@ -1,0 +1,12 @@
+
+.tabs > div {
+    display: none;
+}
+
+.tabs > div.active {
+    display: block;
+}
+
+.main-menu .active {
+    font-weight: bold;
+}

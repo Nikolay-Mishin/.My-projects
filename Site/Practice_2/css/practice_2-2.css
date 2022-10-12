@@ -1,0 +1,12 @@
+body {padding: 20px;}
+
+.cursive {
+    font-style: italic;
+}
+
+h1 {text-align: center;}
+h2 {margin-top: 50px;}
+
+ul {list-style-image: url(../img/home_2/tick.png);}
+.no-image {list-style: none;}
+.list-alpha {list-style: lower-alpha;}

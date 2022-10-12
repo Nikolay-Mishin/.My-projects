@@ -1,0 +1,13 @@
+#groups-list span {
+  cursor: pointer;
+}
+#groups-list span {
+  border: solid 2px transparent;
+  padding: 0 2px 0 2px;
+}
+#groups-list span.active {
+  border-color: red;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,20 @@
+
+.tabs > div {
+  display: none;
+}
+
+.tabs > div.active {
+  display: block;
+}
+
+.main-menu .active {
+  font-weight: bold;
+}
+
+.group-filter li {
+  cursor: pointer;
+}
+
+.group-filter li.active {
+  font-weight: bold;
+}

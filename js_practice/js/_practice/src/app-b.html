@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Экзамен по курсу</title>
+
+    <script src="data.js"></script>
+    <script src="app-b.js"></script>
+</head>
+
+<body>
+    <h1>Билет 1</h1>
+
+    <table border="1" id="tab-1" class="tab">
+        <tbody>
+            <tr>
+                <td>идентификаторы</td>
+                <td id="user_id"></td>
+            </tr>
+            <tr>
+                <td>общая сумма заказов</td>
+                <td id="total_sum"></td>
+            </tr>
+            <tr>
+                <td>общее число заказов</td>
+                <td id="total_orders"></td>
+            </tr>
+            <tr>
+                <td>общая сумма рекомендованных продаж</td>
+                <td id="total_recommended"></td>
+            </tr>
+            <tr>
+                <td>информация о самом дорогом заказе</td>
+                <td id="max_price" class="max_price"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Билет 2</h1>
+
+    <table border="1" id="tab-2" class="tab">
+        <tbody>
+            <tr>
+                <td>число заказов, в которых есть товары, купленные по рекомендации</td>
+                <td id="recommended_value"></td>
+            </tr>
+            <tr>
+                <td>сумма заказов, сделанных 28 июня 2015</td>
+                <td id="total_date"></td>
+            </tr>
+            <tr>
+                <td>средняя стоимость заказов, в которых есть товары, купленные по рекомендации</td>
+                <td id="total_average"></td>
+            </tr>
+            <tr>
+                <td>информация о самом дорогом заказе</td>
+                <td id="max_price-2" class="max_price"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Билет 3</h1>
+
+    <table border="1" id="tab-3" class="tab">
+        <tbody>
+            <tr>
+                <td>число заказов, в которых нет товаров, купленных по рекомендации</td>
+                <td id="non-recommended_value"></td>
+            </tr>
+            <tr>
+                <td>сумма заказов, сделанных, начиная с 24 июня 2015</td>
+                <td id="total_date-2"></td>
+            </tr>
+            <tr>
+                <td>число покупателей, сделавших заказы по рекомендациям продавца</td>
+                <td id="total_users-recommended"></td>
+            </tr>
+            <tr>
+                <td>информация о самом дорогом заказе из тех, в которых есть товары, купленные по рекомендации</td>
+                <td id="max_price-recommended"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table border="1" id="info">
+        <thead>
+            <tr>
+                <th>Дата</th>
+                <th>№ заказа</th>
+                <th>ID покупателя</th>
+                <th>Общая сумма</th>
+                <th>Обычные продажи</th>
+                <th>Рекомендованные продажи</th>
+            </tr>
+        </thead>
+        <tbody id="content"></tbody>
+    </table>
+
+    <h1>Билет 4</h1>
+
+    <table border="1" id="tab-4" class="tab">
+        <tbody>
+            <tr>
+                <td>число заказов, в которых все товары куплены по рекомендации</td>
+                <td id="total_recommended-4"></td>
+            </tr>
+            <tr>
+                <td>число покупателей, сделавших такие заказы</td>
+                <td id="users-total_recommended-4"></td>
+            </tr>
+            <tr>
+                <td>сумма заказов, сделанных  24 июня 2015</td>
+                <td id="total_date-4"></td>
+            </tr>
+            <tr>
+                <td>информацию о самом дорогом из заказов, сделанных 24 июня 2015</td>
+                <td id="max_price-date"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Билет 5</h1>
+
+    <table border="1" id="tab-5" class="tab">
+        <tbody>
+            <tr>
+                <td>число заказов, сделанных 25 июня 2015</td>
+                <td id="total_date-5"></td>
+            </tr>
+            <tr>
+                <td>число покупателей, сделавших такие заказы</td>
+                <td id="users-total_date-5"></td>
+            </tr>
+            <tr>
+                <td>сумму, вырученную за товары, купленные по рекомендации 25 июня 2015</td>
+                <td id="total_recommended-5"></td>
+            </tr>
+            <tr>
+                <td>среднюю сумму заказов, в которых нет товаров, купленных по рекомендации</td>
+                <td id="total_average-5"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Билет 9</h1>
+
+    <table border="1" id="tab-5" class="tab">
+        <tbody>
+            <tr>
+                <td>информацию о 10 самых дорогих заказах</td>
+                <td id="max_price-9"></td>
+            </tr>
+            <tr>
+                <td>общее количество покупателей</td>
+                <td id="users_total-9"></td>
+            </tr>
+            <tr>
+                <td>сумму всех заказов</td>
+                <td id="total-10"></td>
+            </tr>
+            <tr>
+                <td>информацию о первом заказе за 28 июня 2015</td>
+                <td id="total-date-9"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table border="1" id="tab-5-info">
+        <thead>
+            <tr>
+                <th id="slice-data-10">Дата</th>
+                <th id="slice-id-10">№ заказа</th>
+                <th id="slice-user_id-10">ID покупателя</th>
+                <th id="slice-total-10">Общая сумма</th>
+                <th id="slice-typical-10">Обычные продажи</th>
+                <th id="slice-recommended-10">Рекомендованные продажи</th>
+            </tr>
+        </thead>
+        <tbody id="slice_content"></tbody>
+    </table>
+
+    <h1>Билет 10</h1>
+
+    <table border="1" id="tab-5" class="tab">
+        <tbody>
+            <tr>
+                <td>информацию о всех заказах покупателя с id, введенном в поле ввода</td>
+                <td id="info_user"></td>
+            </tr>
+            <tr>
+                <td>общее число заказов</td>
+                <td id="total_orders-10"></td>
+            </tr>
+            <tr>
+                <td>сумму всех заказов, в которых нет рекомендованных товаров</td>
+                <td id="total-non_recommended-10"></td>
+            </tr>
+            <tr>
+                <td>информацию о первом заказе за 23 июня 2015</td>
+                <td id="total-date-9"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        <input id="user-id" type="text" placeholder="ID покупателя">
+        <button id="userFilter">Показать заказы</button>
+    </p>
+
+    <p id="warning"></p>
+
+    <table border="1" id="tab-10-info">
+        <thead>
+            <tr>
+                <th>Дата</th>
+                <th>№ заказа</th>
+                <th>Общая сумма</th>
+                <th>Обычные продажи</th>
+                <th>Рекомендованные продажи</th>
+            </tr>
+        </thead>
+        <tbody id='filter_content'></tbody>
+    </table>
+</body>
+
+</html>

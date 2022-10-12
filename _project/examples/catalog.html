@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>О нас</title>
+
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!--  Подключение веб-шрифтов  -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ...................................... 
+    
+    HEADER
+    
+    ...................................... -->
+
+    <!-- nav>ul>li*5>a[class="nav__link" href="page-$.html"]{Пункт меню № $} -->
+    <section id="top" class="header">
+        <nav class="navigation">
+            <ul class="navigation_list">
+                <li class="navigation_list-item">
+                    <a href="index.html" target="_blank" class="title-1">Главная</a>
+                </li>
+                <li class="navigation_list-item">
+                    <a href="about.html" class="nav__link" target="_blank">О нас</a></li>
+                <li class="navigation_list-item">
+                    <a href="news.html" class="nav__link" target="_blank">Новости</a></li>
+                <li class="navigation_list-item">
+                    <a href="portfolio.html" class="nav__link" target="_blank">Портфолио</a></li>
+                <li class="navigation_list-item">
+                    <a href="gallery.html" class="nav__link" target="_blank">Галерея</a></li>
+                <li class="navigation_list-item">
+                    <a href="reviews.html" class="nav__link" target="_blank">Отзывы</a></li>
+                <li class="navigation_list-item">
+                    <a href="contacts.html" class="nav__link" target="_blank">Контакты</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- ...................................... 
+
+    PORTFOLIO
+
+    ...................................... -->
+    
+    <section class="section-2">
+        <h2>Каталог товаров</h2>
+        
+        <!-- this is the markup. you can change the details (your own name, your own avatar etc.) but don’t change the basic structure! -->
+        <aside class="profile-card">
+            <header>
+                <!-- here’s the avatar https://randomuser.me/api/portraits/men/99.jpg -->
+                <a href="https://tutsplus.com">
+                    <img src="img/profile-avatar.jpg">
+                </a>
+    
+                <!-- the username -->
+                <h2>Мишин Николай</h2>
+    
+                <!-- and role or location -->
+                <h3>- Разработчик Веб-приложений -</h3>
+            </header>
+    
+            <!-- bit of a bio; who are you? -->
+            <div class="profile-bio">
+                <p>Привет!</p>
+                <p>Я начинающий веб-разработчик. Основные навыки имею в сфере HTML, CSS, JS, PHP, WordPress и WebFlow.
+                <br />Кроме того, имеются также начальные знания в области разработки игр на движках Unreal Engine 4, Unity. А также базовые знания в области программирования на языке CSharp (C#). 
+                <br />Среди программного обеспечиния имеются начальные навыки в следующих программах: 3dsMax, Photoshop</p>
+            </div>
+        </aside>
+        <!-- that’s all folks! -->
+
+        <br><a href="catalog.1.html" class="nav__link" target="_blank">Товар 1</a>
+        <br><a href="catalog.2.html" class="nav__link" target="_blank">Товар 2</a>
+        <br><a href="catalog.3.html" class="nav__link" target="_blank">Товар 3</a>
+        <br><a href="catalog.4.html" class="nav__link" target="_blank">Товар 4</a>
+    </section>
+
+    <!-- ...................................... 
+
+    FOOTER
+
+    ...................................... -->
+
+    <section class="footer">
+        <h2>Подвал сайта</h2>
+
+        <a href="#top">Наверх</a>
+        <!-- <a href="#top">
+            <img class="img" src="img/svg_nav_arrow.svg" alt="Наверх">
+        </a> -->
+    </section>
+</body>
+</html>

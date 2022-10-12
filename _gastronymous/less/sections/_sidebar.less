@@ -1,0 +1,170 @@
+/* ...................................... 
+    
+    	SIDEBAR
+    
+...................................... */
+
+.column-2 {
+	width: 92%;
+	margin: 0 auto;
+	text-align: center;
+}
+.column-2 header {
+	text-align: left;
+	width:200px;
+}
+.form-header,
+.vote-form {
+	display: none;
+}
+.subscribe h2 {
+	display: block;
+}
+.subscribe input[type="email"] {
+	background-color: #f4ebd8;
+}
+.subscribe input[type="submit"] {
+	color:#a28d62;
+}
+.sidebar-social {
+	margin: 15px 0 0;
+	padding: 0 0 10px 0;
+}
+.sidebar-social a {
+	display: inline-block;
+	margin: 0 0 0 5px;
+	position: relative;
+
+    .transition(all, 1s);
+}
+.sidebar-social a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+    .column-2 {
+        text-align: left;
+    }
+    .sidebar-post {
+        float: left;
+    }
+    .sidebar-post p {
+        margin: 0;
+        width: 200px
+    }
+    .form-header {
+        display: block;
+        float: left;
+        width: 200px;
+        margin-top: 0;
+    }
+    .vote-form {
+        display: block;
+        width: 200px;
+        float: left;
+        margin-left: 20px;
+    }
+    .vote-form label {
+        vertical-align: top;
+        line-height: 12px;
+
+        .transition(all, 1s);
+
+        &:hover, &:active, &:focus {
+            color: #278f7f;
+        }
+    }
+    #vote-form input:checked + label {
+        color: #278f7f;
+
+        .transition(all, 1s);
+
+        &:hover, &:active, &:focus {
+            color: #278f7f;
+        }
+    }
+    .field {
+        width: 165px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #e5ede7;
+    }
+    .bottons input {
+        text-transform: uppercase;
+        background: none;
+        border: none;
+        text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.39);
+        color: #278f7f;
+            font:400 15px/1.2 "InterstateCondensedBold";
+        padding: 10px 15px;
+        margin-right: 20px;
+
+        .transition(all, 1s);
+    }
+    .bottons input[value=vote] {
+        color: #a28d62;
+        background-color: #f0e3c8;
+        -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+                border-radius: 5px;
+        padding: 10px 15px;
+    }
+    .bottons input[value=result]:hover {
+        color: #a28d62;
+        background-color: #f0e3c8;
+        -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+                border-radius: 5px;
+        padding: 10px 15px;
+    }
+
+    .subscribe {
+        float:left;
+
+    }
+    .subscribe input[type="submit"] {
+        top:-3px;
+    }
+    .subscribe:before {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+    .sidebar-social {
+        float: right;
+        margin: 15px 110px 40px 0;
+    }
+}
+
+@media screen and (min-width: 1027px) {
+    .column-2 {
+		width: 27%;
+		float: left;
+        padding-left: 24px;
+	}
+	.column-2 header {
+		margin-left: 0;
+	}
+	.sidebar-post a {
+		display: block;
+		margin-bottom: 5px;
+	}
+	.sidebar-post p {
+		margin-bottom: 20px;
+	}
+	.form-header {
+		margin-top: 45px;
+	}
+	.vote-form {
+		margin-left: 0;
+	}
+	.vote-form .bottons {
+		margin-top: 30px;
+	}
+	.subscribe {
+		margin-top: 40px;
+	}
+	.sidebar-social {
+		float: left;
+	}
+}

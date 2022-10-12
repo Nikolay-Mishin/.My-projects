@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top right,#ffffff, #ffa500);
+    background-repeat: no-repeat;
+    height: 830px;
+  }
+  
+  .wrapper {
+    width: 810px;
+    height: 500px;
+    margin: 50px auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+     /*box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);*/
+    padding: 10px;
+    perspective: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.7s linear;
+    z-index: 1;
+  }
+  
+  .product-category {
+    left: -105%;
+    top: 5%;
+    background: #11e95b;
+    padding: 0px 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: -125px;
+    box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+  }
+  
+  .goods img {
+      z-index: 10;
+      margin-left: -190px;
+      width: 180%;
+     
+    }
+
+  .product-img {
+    float: left;
+    height: 460px;
+    width: 280px;
+   background-color: #fffee1;
+   padding: 20px;
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .product-info {
+    float: left;
+    height: 460px;
+    width: 450px;
+    background-color: #fffee1;
+    padding: 20px;
+  }
+  
+  .product-text {
+    height: 300px;
+    width: 450px;
+  }
+  
+  .header {
+    color: #915f35;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .price {
+      width: 30%; 
+      float: left;
+    }
+ 
+
+  .price h3 {
+    color: #915f35;
+    font-size: 1.4rem;
+    font-family: 'News Cycle', sans-serif;
+    text-transform: uppercase;
+}
+
+  .price p {
+    font-size: 1.4rem;
+    font-family: 'News Cycle', sans-serif;
+    line-height: 2rem;
+    color: #e57740;
+}
+
+.rating h3 {
+    color: #915f35;
+    font-size: 1.4rem;
+    font-family: 'News Cycle', sans-serif;
+    text-transform: uppercase;
+}
+
+.rating h3 span {
+    color: #e57740;
+    font-size: 25px;
+}
+
+.rating {
+    width: 70%;
+    text-align: right;
+    padding-left: 115px;
+    }
+
+ .rating-star {
+      unicode-bidi: bidi-override;
+      direction: rtl;
+      margin-top: -30px;
+    }
+
+    .rating-star > span:hover:before,
+    .rating-star > span:hover ~ span:before {
+       content: "\2605";
+       position: absolute;
+       color: #ffd414;
+    }
+    
+  
+
+  .product-text .description {
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 18px;
+    font-weight: lighter;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #f7d7c7;
+    padding-bottom: 10px;
+  }
+  
+  
+  span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+  }
+  
+ /* COLOR */
+.product-color h4 {
+    font-size: 18px;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  .ul-color {
+    margin-left: 27px;
+  }
+  
+  .ul-color li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .ul-color li a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+  }
+  
+  .ul-color li a.orange {
+    background: #f35e3d;
+  }
+  
+  .ul-color li a.green {
+    background: #11e95b;
+  }
+  
+  .ul-color li a.yellow {
+    background: #ffd414;
+  }
+  
+  .ul-color li a.active:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    border: 1px solid #f35e3d;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+
+  .button {
+    margin-top: 95px;
+    border: 1px solid #e57740;
+    border-radius: 40px;
+    color: #e57740;
+    cursor: pointer;
+    display: block;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    z-index: 3;
+  }
+ .button:before {
+    position: absolute;
+    top: 0%;
+    left: -160%;
+    width: 150%;
+    height: 100%;
+    background: #e57740;
+    content: ' ';
+    transition: all 0.4s ease-in;
+    transform: skewX(60deg);
+    z-index: -1;
+  }
+   .button:hover {
+    color: #fff;
+  }
+  .button:hover:before {
+    left: -30%;
+  }
+
+
+
+  

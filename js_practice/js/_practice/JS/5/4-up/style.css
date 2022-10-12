@@ -1,0 +1,33 @@
+span { color: red; }
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+.tab.stat {
+  background-color: #0d95e8;
+}
+
+.tab.groups {
+  background-color: #c9e2b3;
+}
+
+.tab.students {
+  background-color: antiquewhite;
+}
+
+table.students th span {
+  cursor: pointer;
+}
+
+th span.forward {
+  color: blue;
+}
+
+th span.back {
+  color: lime;
+}

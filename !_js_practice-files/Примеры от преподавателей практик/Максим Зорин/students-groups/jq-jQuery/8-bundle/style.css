@@ -1,0 +1,36 @@
+
+.tabs > div {
+  display: none;
+}
+
+.tabs > div.active {
+  display: block;
+}
+
+.main-menu .active {
+  font-weight: bold;
+}
+
+.tabs .students th {
+  cursor: pointer;
+}
+
+.tabs .students th.active {
+  color: red;
+}
+
+.tabs .students th.active.reverse {
+  color: blue;
+}
+
+.group-filter li {
+  cursor: pointer;
+}
+
+.group-filter li.active {
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+}

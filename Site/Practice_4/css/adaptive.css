@@ -1,0 +1,15 @@
+.photo {
+	background: url(../img/tokio01.jpg);
+	width: 100%;
+	height: 600px;
+	margin-bottom: 40px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.photo_2 {
+	background: url(../img/tokio01.jpg);
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+}

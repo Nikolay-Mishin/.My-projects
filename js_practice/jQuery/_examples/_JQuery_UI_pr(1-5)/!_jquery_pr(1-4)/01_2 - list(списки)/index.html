@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+
+<script>
+  $(function () {
+    $('<ul>')
+      .append($('<li>').text('Апельсин'))
+      .append($('<li>').text('Яблоко'))
+      .append($('<li>').text('Груша'))
+      .appendTo($('body'));
+  });
+
+// 1) Создание объектов
+  jQuery('<li>')                //      document.createElement('li')
+
+  jQuery('<li>Яблоко</li>')     //      const li = document.createElement('li')
+                                //      li.textConent = 'Яблоко'
+
+  jQuery('<table><tr><td><a href="#" onclick="void()">Ссылка</a></td></tr></table>')
+      //      const d = document.createElement('div')
+      //      d.outerHTML = '<table><tr><td><a href="#" onclick="void()">Ссылка</a></td></tr></table>';
+
+// 2) Поиск отдельных ИЛИ множество элементов
+
+  // единичные элементы
+  document.getElementById('idEl');
+  document.querySelector('#idEl');
+  document.getElementById('idEl').style.color = 'Red';
+
+  jQuery('#idEl');
+  jQuery('input[name=password]');
+  jQuery('#idEl').css('color', 'Red');
+
+  // множества элементов
+  document.getElementsByClassName('active');
+  document.querySelectorAll('.active');
+  for (const el of document.querySelectorAll('.active'))
+    el.style.color = 'Red';
+
+  jQuery('.active').css('color', 'Red');
+  jQuery('.active').css({
+    'color': 'Red',
+    'backgroundColor': 'Blue'
+  });
+
+  $('#apple').text('Антоновка');
+  $('#apple').text();
+
+  const handler = function() {};
+  document.addEventListener('DOMContentLoaded', handler);
+  document.removeEventListener('DOMContentLoaded', handler);
+
+  $(document).on('DOMContentLoaded', handler);
+  $(document).off('DOMContentLoaded', handler);
+
+  $(document).on('click', handler);
+  $(document).click(handler);
+
+  $(handler);
+
+
+
+</script>
+</body>
+</html>

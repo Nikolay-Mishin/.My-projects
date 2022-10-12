@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0;}
+body {background-color: beige;}
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	background-color: white;
+}
+nav {
+	background-color: darkgray;
+	text-align: center;
+}
+ul {
+	list-style: none;
+}
+nav li {display: inline-block;}
+nav li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 3px 15px;
+}
+nav li a:hover {background-color: #E9C957;}

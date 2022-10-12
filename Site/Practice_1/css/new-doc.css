@@ -1,0 +1,26 @@
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.first, .second, .third, .fouth {
+	background-color: aquamarine;
+	width: 49%;
+	height: 200px;
+	padding: 30px;
+	border: 4px dotted red;
+}
+.second {margin-top: 100px;}
+.son {
+	background-color: red; 
+	margin-top: 60px;
+}
+
+.third, .fouth {
+	background-color: coral;
+	display: inline-block;
+	margin-top: 20px;
+	box-sizing: border-box;
+}

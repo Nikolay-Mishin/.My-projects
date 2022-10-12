@@ -1,0 +1,65 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<style>
+  #out { background-color: gold; }
+</style>
+
+<p id="first">Абзац <b>1</b></p>
+<p class="c1 c2">Абзац 2</p>
+<p data-test align="right" class="c2">Абзац 3</p>
+<pre id="out"></pre>
+
+<script>
+$(() => {
+  const $out = $('#out');
+
+  const firstText = $('#first').text();
+  $out.text(firstText);
+  console.log(firstText);
+
+  const firstHtml = $('#first').html();
+  $out.text($out.text() + '\n' + firstHtml);
+  console.log(firstHtml);
+
+  console.log($('.c1').text());
+  console.log($('#first > b').text());
+  console.log($('#first').find('b').text());
+
+  const $dataTest = $('[data-test]');
+  console.log($dataTest.attr('align'));
+
+  const $p = $('p');
+  console.log($p.length);
+  const el2 = $p[1];
+  console.log($(el2).text());
+
+  el2.foo = 'OK';
+  console.log($(el2).prop('foo'));
+
+  $p.css('color', 'red');
+  $p.css('color', '#FF0000');
+  $p.css('color', 'rgb(255, 0, 0)');
+  $p.css('color', 'rgb(255, 0, 0, 0.5)');
+  //$p.css('color', 'hsl(1, 0, 0)');
+  $p.css({'color': 'red'});
+
+  $('[id]').css('text-decoration', 'underline');
+
+  const f1 = () => console.log('HANDLE1', $($p[0]).text());
+  const f2 = () => console.log('HANDLE2', $($p[1]).text());
+  const f3 = () => console.log('HANDLE3', $($p[2]).text());
+
+  $(f1);   // ???
+  $('#first > b').on('click', f2);
+  $('.c2').on('click', f3);
+  $($p[2]).on('click', () => console.log('HANDLE4', '!!!'));
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<!-- <тег атрибут="значение_атрибута"></тег> -->
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Портфолио</title>
+
+    <!-- Подключаем Animate.css для анимации -->
+    <!-- <link rel="stylesheet" href="libs/css/animate.css"> -->
+    
+    <!-- jQuery Modal -->
+    <link rel="stylesheet" href="_libs/_js/jquery-modal_0.9.1/jquery.modal.min.css">
+
+    <!--  Подключение веб-шрифтов  -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Merriweather|PT+Sans+Caption:400,700" rel="stylesheet"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Подключаем .css файл для карточки -->
+    <link rel="stylesheet" href="css/profile.css">
+
+    <!-- Подключаем свой .css файл -->
+    <link rel="stylesheet" href="_libs/_css/_snipets.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="main__wrapper">
+        <!-- ...................................... 
+    
+        NAVIGATION_ICON
+    
+        ...................................... -->
+    
+        <div class="img">
+            <a href="#top">
+                <img src="img/svg_nav_arrow.svg" alt="Наверх">
+            </a>
+        </div>
+
+        <!-- ...................................... 
+            
+            HEADER
+            
+        ...................................... -->
+    
+        <nav id="top" class="_rel navigation">
+            <ul class="_menu _main-menu">
+                <li>
+                    <a href="index.html" class="title-1">Портфолио &copy;</a>
+    
+                    <ul class="_menu _sub-menu">
+                        <li><a href="#">ссылка 1</a></li>
+                        <li><a href="#">ссылка 2</a></li>
+                        <li><a href="#">ссылка 3</a></li>
+                        <li><a href="#">ссылка 4</a></li>
+                        <li><a href="#">ссылка 5</a></li>
+                        <li><a href="#">ссылка 6</a></li>
+                        <li><a href="#">ссылка 7</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html" class="nav__link">О нас</a>
+                    
+                    <!-- первый уровень выпадающего списка -->
+                    <ul class="_menu _sub-menu">
+                        <li><a href="catalog.html">Каталог товаров</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Tutorials</a>
+                            <!-- второй уровень выпадающего списка -->
+                            <ul>
+                                <li><a href="#">Stuff</a></li>
+                                <li><a href="#">Things</a></li>
+                                <li><a href="#">Other Stuff</a></li>
+                            </ul>
+                            <!-- конец второго уровня выпадающего списка -->
+    
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="news.html" class="nav__link">Новости</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="nav__link">Портфолио</a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="nav__link">Галерея</a>
+                </li>
+                <li>
+                    <a href="reviews.html" class="nav__link">Отзывы</a>
+                </li>
+                <li>
+                    <a href="contacts.html" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+
+            <ul class="logging _abs _right _center_y">
+                <li>
+                    <a class="btn btn-modal" href="#log-in">Вход</a>
+                </li>
+                <li>
+                    <a class="btn btn-modal" href="#reg">Регистрация</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- ...................................... 
+    
+        PORTFOLIO
+    
+        ...................................... -->
+        
+        <div class="_abs _center_x _top content__wrapper">
+            <!-- Modal HTML embedded directly into document -->
+            <form id="log-in" class="fade login_form modal _abs _top _center" action="php/login.php" target="_blank">
+                <h3>Please login to continue</h3>
+                <p><label>Username:</label><input type="text" /></p>
+                <p><label>Password:</label><input type="password" /></p>
+                <p><input type="submit" value="Login"></p>
+            </form>
+
+            <form id="reg" class="login_form modal _abs _top _center_x" action="mailto:mishin.nikolay.d3@gmail.com">
+                <fieldset class="data-system"><legend>Системные данные</legend>
+                    <div class="form-row line">
+                        <label>ID пользователя</label>
+                        <div class="form-item">
+                            <input type="text" name="text_input" value="12345" disabled>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset class="data-user"><legend>Данные пользователя</legend>
+                    <div class="form-row line">
+                        <label for="name">Имя пользователя:</label>
+                        <div class="form-item">
+                            <input id="name" type="text" placeholder="Введите имя" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="email">Email:</label>
+                        <div class="form-item">
+                            <input id="email" type="email" placeholder="Введите почту" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="password">Password:</label>
+                        <div class="form-item">
+                            <input id="password" type="password" placeholder="Введите пароль" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="data-private"><legend>Личные данные</legend>
+                    <div class="form-row line">
+                        <label for="city">Город:</label>
+                        <div class="form-item">
+                            <input id="city" type="text" placeholder="Введите город" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="date">Дата:</label>
+                        <div class="form-item">
+                            <input id="date" type="password" placeholder="дд/мм/гггг" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="select-city">Выберите город</label>
+                        <div class="form-item">
+                            <select id="select-city" name="select-city" size="1" required>
+                                <option value="" disabled selected>Выберите город</option>
+
+                                <optgroup label="Город">
+                                    <option value="Moscow">Москва</option>
+                                    <option value="Kiev">Киев</option>
+                                    <option value="Minsk">Минск</option>
+                                    <option value="Tokio">Токио</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="file">Прикрепите файл</label>
+                        <div class="form-item">
+                            <input id="file" type="file" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="policy"> 
+                    <input class="checkbox" type="checkbox" name="terms" required> Я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моей персональной информации на условиях, определенных <a href="#" target="_blank">Политикой конфиденциальности</a>.
+                </div>
+            
+                <div class="form-row line-item">
+                    <div class="line">
+                        <input class="btn" type="submit">
+                    </div>
+                    <div class="line">
+                        <input class="btn" type="reset">
+                    </div>
+                </div>
+            </form>
+
+            <div class="_rel _center_x wrapper sec-0">
+                <a class="_rel _center_x line" href="files/Home-study.rar" target="_blank">Скачать Исходник</a>
+                <br><br><a class="_rel _center_x line" href="../index.html">Главная (Хостинг)</a>
+            </div>
+
+            <div class="_rel _center_x wrapper sec-1">
+                    <h2>Карточка-профиль</h2>
+                    <!-- this is the markup. you can change the details (your own name, your own avatar etc.) but don’t change the basic structure! -->
+                    <aside class="profile-card">
+                        <header>
+                            <!-- here’s the avatar https://randomuser.me/api/portraits/men/99.jpg -->
+                            <a href="https://tutsplus.com">
+                                <img src="img/profile-avatar.jpg" alt="Profile-avatar">
+                            </a>
+                
+                            <!-- the username -->
+                            <h2>Мишин Николай</h2>
+                
+                            <!-- and role or location -->
+                            <h3>- Разработчик Веб-приложений -</h3>
+                        </header>
+                
+                        <!-- bit of a bio; who are you? -->
+                        <div class="profile-bio">
+                            <p>Привет!</p>
+                            <p>Я начинающий веб-разработчик. Основные навыки имею в сфере HTML, CSS, JS, PHP, WordPress и WebFlow.
+                            <br />Кроме того, имеются также начальные знания в области разработки игр на движках Unreal Engine 4, Unity. А также базовые знания в области программирования на языке CSharp (C#). 
+                            <br />Среди программного обеспечиния имеются начальные навыки в следующих программах: 3dsMax, Photoshop</p>
+                        </div>
+                
+                        <!-- some social links to show off -->
+                        <ul class="profile-social-links">
+                            <!-- twitter - el clásico  -->
+                            <li>
+                                <a href="https://twitter.com/">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg" alt="Твиттер">
+                                </a>
+                            </li>
+                
+                            <!-- envato – use this one to link to your marketplace profile -->
+                            <li>
+                                <a href="https://envato.com">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-envato.svg" alt="Envato">
+                                </a>
+                            </li>
+                
+                            <!-- codepen - your codepen profile-->
+                            <li>
+                                <a href="https://codepen.io/">
+                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg" alt="Codepen">
+                                </a>
+                            </li>
+                            <!-- add or remove social profiles as you see fit -->
+                        </ul>
+                    </aside>
+                    <!-- that’s all folks! -->
+                </div>
+                
+                <div class="_rel _center_x wrapper sec-2">
+                    <h2>Таблица - Анкета</h2>
+                    <!-- .header -->
+                    <div class="header">
+                        <table class="table border">
+                           <col class="col-1">
+                           <col class="col-2">
+        
+                           <tr>
+                               <th colspan="2">Анкета</th>
+                           </tr>
+        
+                           <tr>
+                               <td class="font">Ф.И.О.</td>
+                               <td>Мишин Николай Димитриевич</td>
+                           </tr>
+        
+                           <tr>
+                               <td class="font">Дата рождения</td>
+                               <td>27.08.1993</td>
+                           </tr>
+        
+                           <tr>
+                               <td class="font">Город</td>
+                               <td>Санкт-Петербург</td>
+                           </tr>
+        
+                           <tr>
+                                <th class="font" colspan="2"><mark>Навыки</mark></th>
+                           </tr>
+        
+                           <tr>
+                               <td>
+                                    <span class="font">Основные</span>
+                                    
+                                    <ul class="list">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JS</li>
+                                        <li>PHP</li>
+                                        <li>WordPress</li>
+                                        <li>WebFlow</li>
+                                    </ul>
+                               </td>
+        
+                               <td>
+                                    <span class="font">Дополнительные</span>
+        
+                                    <ul class="list">
+                                        <li>UE4</li>
+                                        <li>Unity</li>
+                                        <li>C#</li>
+                                        <li>3dsMax</li>
+                                        <li>Photoshop</li>
+                                    </ul>
+                               </td>
+                           </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="_rel _center_x wrapper sec-3">
+                    <!-- <название-тега>Значение тега</название-тега> -->
+                    <div>
+                        <h1>Heading 1 - Заголовок первого уровня</h1>
+                        <p>Абзац с текстом. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Которой переписывается страна буквоград, напоивший. Он повстречался грустный страна семантика рыбного большой над, предупреждал заголовок, текст переулка, свою, всемогущая свой.</p>
+                        <br><br><br><br>
+                        <p>Абзац с текстом. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Которой переписывается страна буквоград, напоивший. Он повстречался грустный страна семантика рыбного большой над, предупреждал заголовок, текст переулка, свою, всемогущая свой.</p>
+                
+                        <hr>
+                
+                        <p>Абзац с текстом. Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Которой переписывается страна буквоград, напоивший. Он повстречался грустный страна семантика рыбного большой над, предупреждал заголовок, текст переулка, свою, всемогущая свой.</p>
+                
+                        <!-- <одинарный-тег> -->
+                        <br>
+                    </div>
+                </div>
+            
+            <!-- ...................................... 
+        
+            FOOTER
+        
+            ...................................... -->
+        
+            <div class="_rel _center_x wrapper footer">
+                <h2>Подвал сайта</h2>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Wow.js для эффектов анимации animate.css -->
+    <!--<script src="libs/js/wow.min.js"></script> -->
+
+    <!-- Remember to include jQuery :) -->
+    <script src="_libs/_js/jquery_3.3.1/jquery.min.js"></script>
+    <!-- jQuery Modal -->
+    <script src="_libs/_js/jquery-modal_0.9.1/jquery.modal.min.js"></script>
+    
+    <!-- Свой js файл со скриптами -->
+    <script src="js/main.js"></script>
+</body>
+</html>

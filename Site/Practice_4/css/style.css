@@ -1,0 +1,124 @@
+* {-webkit-box-sizing: border-box; box-sizing: border-box; margin: 0;}
+body {margin: 0; padding: 0 15px;}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: san-serif;
+}
+
+/* ------ HEADER ------ */
+
+header {
+	background-color: antiquewhite;
+	background-image: url(../img/header.png);
+	height: 100px;
+
+	margin-bottom: 20px;
+}
+
+/* -- logo -- */
+
+.logo {float: left; left: 10%}
+.img {width: 50px;}
+
+/* -- nav -- */
+
+nav {float: right;}
+.nav {right: 10%;}
+ul {list-style: none; margin: 0;}
+li {display: inline-block; margin-right: 20px;}
+a {
+	color: #EC6001; 
+	text-decoration: none;
+	display: block;
+	font-weight: 500;
+}
+
+/* ------ MAIN ------ */
+
+/* width (%) - [(Target / context) * 100% = result] */
+/* font-size (base) = 24px - [14/16=0.84] */
+main {
+	float: left;
+	max-width: 65%;
+	
+	padding: 2.08333333em;
+	padding-bottom: 30px;
+	border: 1px #ccc dotted;
+	
+	font-size: 0.875em;
+}
+
+main p {margin-bottom: 15px;}
+
+main ul li {float: left; width: 20%;}
+main ul li img {max-width: 100%;}
+
+/* ------ ASIDE ------ */
+
+aside {float: right; max-width: 25%;}
+
+aside ul {padding: 0;}
+aside li {display: block;}
+aside li a::before {content: "\2014"; margin-right: 10px;}
+aside li a {display: block; padding: 6px 0; color: #444;}
+aside li a:hover {color: #f16529;}
+aside h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 18px;
+	border-left: 2px solid #f16529;
+	padding-left: 15px;
+}
+
+article {background-color: #DFFFFE; padding: 20px; margin-bottom: 2.08333em;}
+
+article h2 {font-size: 1,125em}
+
+article header {padding-top: 10px;}
+article header h2 {margin: 0;}
+
+article footer {
+	background-color: #e44d26;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+}
+article footer a {color: #fff;}
+
+/* ------ FOOTER ------ */
+
+.no-img {height: 50px;}
+
+footer:not(.no-img) {
+	background-color: #f16529;
+	background-image: url(../img/footer.png);
+	height: 100px;
+}
+footer a {color: white;}
+
+/* ------ ОЧИСТКА ОБТЕКАНИЯ ------ */
+
+.clearfix::after, .clearfix::before {content: ''; display: block; clear: both;}
+
+/* ------ МЕДИА-ЗАПРОСЫ ------ */
+
+@media screen and (max-width: 960px){
+	main ul li {width: 25%;}
+}
+
+@media screen and (max-width: 720px){
+	aside {float: none}
+	main {width: 100%;}
+}
+
+@media screen and (max-width: 540px){
+	main ul li {width: 60%;}
+}
+
+@media screen and (max-width: 320px){
+	main ul li {float: none; width: 100%;}
+	
+	main {width: 100%;}
+}

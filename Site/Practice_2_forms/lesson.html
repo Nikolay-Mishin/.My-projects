@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>lesson</title>
+
+    <link rel="stylesheet" href="lesson.css">
+</head>
+
+<body>
+    <div class="center-item">
+        <div>
+            <label class="_label">Форма отзыва</label>
+        </div>
+        <form action="" method="post">
+            <fieldset><legend>Личные данные</legend>
+                <div class="form-row line">
+                    <label>ID отзыва</label>
+                    <div class="form-item">
+                        <input type="text" name="text_input" value="12345" disabled>
+                    </div>
+                </div>
+                <div class="form-row line">
+                    <label>Имя путешественника</label>
+                    <div class="form-item">
+                        <input type="text" name="text_input" value="Кекс">
+                    </div>
+                </div>
+            </fieldset>
+            
+            <fieldset><legend>Отзыв о поездке</legend>
+                <div class="form-row line">
+                    <label>Страна визита</label>
+                    <div class="form-item">
+                        <input type="text" name="country" value="Норвегия">
+                    </div>
+                </div>
+                <div class="form-row line">
+                    <label>Город</label>
+                    <div class="form-item" name="city">
+                        <select>
+                            <option>Осло</option>
+                            <option>Коппенгаген</option>
+                            <option>Париж</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row line">
+                    <label>Оценка поездки</label>
+                    <div class="form-item range" name="rate">
+                        <input type="range" value="100">
+                    </div>
+                </div>
+                <div class="form-row line center-number">
+                    <div class="form-item" name="number">
+                        <input class="number" type="text" value="10">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>Текст отзыва</label>
+                    <div class="form-item" name="rate">
+                        <textarea rows="5">Это было просто мяу!</textarea>
+                    </div>
+                </div>
+            </fieldset>
+    
+            <fieldset><legend>Оценка отеля</legend>
+                <div class="form-row line">
+                    <label>Название отеля</label>
+                    <div class="form-item">
+                        <input type="text" name="text_input" placeholder="Название по-английски">
+                    </div>
+                </div>
+                <div class="form-row line">
+                    <label>Дата въезда</label>
+                    <div class="form-item">
+                        <input type="text" placeholder="В формате дд-мм-гггг">
+                    </div>
+                </div>
+                <div class="form-row line">
+                    <label>Цвет кроватки</label>
+                    <div class="form-item">
+                        <input type="text" name="text_input">
+                    </div>
+                </div>
+                <div class="form-row line">
+                    <label>Оценка обедов</label>
+                    <div class="form-item">
+                        <select>
+                            <option>Подушечки оближешь</option>
+                            <option>Бывало и лучше</option>
+                            <option>Пойду-ка я домой!</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>Самая вкусная рыба</label>
+                    <div class="form-item">
+                        <select size="5" multiple="multiple">
+                            <option>Норвежский лосось</option>
+                            <option>Зубатка</option>
+                            <option>Морской окунь</option>
+                            <option>Карась</option>
+                            <option>Зеркальный карп</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+    
+            <div class="form-row line-item">
+                <div class="line">
+                    <input class="btn" type="submit">
+                </div>
+                <div class="line">
+                    <input class="btn" type="reset">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

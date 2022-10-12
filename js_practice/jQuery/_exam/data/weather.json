@@ -1,0 +1,2932 @@
+{
+  "headers": {
+    "date": "Дата",
+    "temperature": "Температура",
+    "precipitation": "Осадки",
+    "pressure": "Давление",
+    "winddirection": "Ветер",
+    "windspeed": "Скорость ветра"
+  },
+  "data": [
+    {
+      "date": "1 января",
+      "temperature": 0.7,
+      "precipitation": 15.2,
+      "pressure": 748,
+      "winddirection": "ЮВ",
+      "windspeed": 4.2
+    },
+    {
+      "date": "2 января",
+      "temperature": 0.4,
+      "precipitation": 4.6,
+      "pressure": 751,
+      "winddirection": "В",
+      "windspeed": 4.7
+    },
+    {
+      "date": "3 января",
+      "temperature": -1.9,
+      "precipitation": 1.4,
+      "pressure": 747,
+      "winddirection": "С",
+      "windspeed": 2.4
+    },
+    {
+      "date": "4 января",
+      "temperature": -7.7,
+      "precipitation": 0.2,
+      "pressure": 752,
+      "winddirection": "З",
+      "windspeed": 4.7
+    },
+    {
+      "date": "5 января",
+      "temperature": -3.6,
+      "precipitation": 0,
+      "pressure": 755,
+      "winddirection": "ЮЗ",
+      "windspeed": 6.9
+    },
+    {
+      "date": "6 января",
+      "temperature": -6.9,
+      "precipitation": 0,
+      "pressure": 758,
+      "winddirection": "Ю",
+      "windspeed": 8.7
+    },
+    {
+      "date": "7 января",
+      "temperature": -7.9,
+      "precipitation": 0,
+      "pressure": 755,
+      "winddirection": "З",
+      "windspeed": 6.2
+    },
+    {
+      "date": "8 января",
+      "temperature": -8.6,
+      "precipitation": 0,
+      "pressure": 752,
+      "winddirection": "СЗ",
+      "windspeed": 6.9
+    },
+    {
+      "date": "9 января",
+      "temperature": -6.3,
+      "precipitation": 0,
+      "pressure": 752,
+      "winddirection": "СЗ",
+      "windspeed": 8.1
+    },
+    {
+      "date": "10 января",
+      "temperature": -10.9,
+      "precipitation": 1.3,
+      "pressure": 749,
+      "winddirection": "СЗ",
+      "windspeed": 7.2
+    },
+    {
+      "date": "11 января",
+      "temperature": -6.5,
+      "precipitation": 2.2,
+      "pressure": 750,
+      "winddirection": "З",
+      "windspeed": 5.3
+    },
+    {
+      "date": "12 января",
+      "temperature": -4.2,
+      "precipitation": 3.5,
+      "pressure": 750,
+      "winddirection": "СЗ",
+      "windspeed": 3.9
+    },
+    {
+      "date": "13 января",
+      "temperature": -2.9,
+      "precipitation": 1.7,
+      "pressure": 753,
+      "winddirection": "З",
+      "windspeed": 2.8
+    },
+    {
+      "date": "14 января",
+      "temperature": -4.8,
+      "precipitation": 7.2,
+      "pressure": 757,
+      "winddirection": "СЗ",
+      "windspeed": 2.9
+    },
+    {
+      "date": "15 января",
+      "temperature": -6.6,
+      "precipitation": 1,
+      "pressure": 755,
+      "winddirection": "З",
+      "windspeed": 4.5
+    },
+    {
+      "date": "16 января",
+      "temperature": -8.7,
+      "precipitation": 2,
+      "pressure": 756,
+      "winddirection": "С",
+      "windspeed": 4.9
+    },
+    {
+      "date": "17 января",
+      "temperature": -10.8,
+      "precipitation": 0,
+      "pressure": 758,
+      "winddirection": "В",
+      "windspeed": 7.7
+    },
+    {
+      "date": "18 января",
+      "temperature": -13.5,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "В",
+      "windspeed": 4.8
+    },
+    {
+      "date": "19 января",
+      "temperature": -13.4,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "ЮВ",
+      "windspeed": 6.9
+    },
+    {
+      "date": "20 января",
+      "temperature": -12.4,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "Ю",
+      "windspeed": 5.7
+    },
+    {
+      "date": "21 января",
+      "temperature": -13.2,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "З",
+      "windspeed": 6
+    },
+    {
+      "date": "22 января",
+      "temperature": -14.3,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "З",
+      "windspeed": 6.6
+    },
+    {
+      "date": "23 января",
+      "temperature": -9.4,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "ЮЗ",
+      "windspeed": 4.7
+    },
+    {
+      "date": "24 января",
+      "temperature": -7,
+      "precipitation": 6,
+      "pressure": 763,
+      "winddirection": "Ю",
+      "windspeed": 4.9
+    },
+    {
+      "date": "25 января",
+      "temperature": -1.5,
+      "precipitation": 0,
+      "pressure": 766,
+      "winddirection": "Ю",
+      "windspeed": 7.5
+    },
+    {
+      "date": "26 января",
+      "temperature": -1.6,
+      "precipitation": 0,
+      "pressure": 763,
+      "winddirection": "ЮВ",
+      "windspeed": 4.6
+    },
+    {
+      "date": "27 января",
+      "temperature": 0.4,
+      "precipitation": 10.6,
+      "pressure": 760,
+      "winddirection": "Ю",
+      "windspeed": 7.1
+    },
+    {
+      "date": "28 января",
+      "temperature": 0.1,
+      "precipitation": 4.5,
+      "pressure": 757,
+      "winddirection": "З",
+      "windspeed": 5.9
+    },
+    {
+      "date": "29 января",
+      "temperature": -1.8,
+      "precipitation": 0.6,
+      "pressure": 755,
+      "winddirection": "Ю",
+      "windspeed": 4.6
+    },
+    {
+      "date": "30 января",
+      "temperature": 1.1,
+      "precipitation": 0.8,
+      "pressure": 756,
+      "winddirection": "ЮВ",
+      "windspeed": 5.9
+    },
+    {
+      "date": "31 января",
+      "temperature": 1.6,
+      "precipitation": 4.4,
+      "pressure": 760,
+      "winddirection": "ЮВ",
+      "windspeed": 6.3
+    },
+    {
+      "date": "1 февраля",
+      "temperature": -6.3,
+      "precipitation": 3.1,
+      "pressure": 757,
+      "winddirection": "В",
+      "windspeed": 6.2
+    },
+    {
+      "date": "2 февраля",
+      "temperature": -3.4,
+      "precipitation": 4,
+      "pressure": 752,
+      "winddirection": "С",
+      "windspeed": 7.5
+    },
+    {
+      "date": "3 февраля",
+      "temperature": -0.3,
+      "precipitation": 1.8,
+      "pressure": 748,
+      "winddirection": "СВ",
+      "windspeed": 6.4
+    },
+    {
+      "date": "4 февраля",
+      "temperature": -6.3,
+      "precipitation": 0.2,
+      "pressure": 746,
+      "winddirection": "СЗ",
+      "windspeed": 4.3
+    },
+    {
+      "date": "5 февраля",
+      "temperature": -2,
+      "precipitation": 2,
+      "pressure": 747,
+      "winddirection": "СЗ",
+      "windspeed": 6.5
+    },
+    {
+      "date": "6 февраля",
+      "temperature": -0.5,
+      "precipitation": 2.6,
+      "pressure": 750,
+      "winddirection": "СЗ",
+      "windspeed": 8.9
+    },
+    {
+      "date": "7 февраля",
+      "temperature": 0.5,
+      "precipitation": 9.5,
+      "pressure": 749,
+      "winddirection": "СЗ",
+      "windspeed": 7.3
+    },
+    {
+      "date": "8 февраля",
+      "temperature": -3.6,
+      "precipitation": 0.4,
+      "pressure": 753,
+      "winddirection": "СЗ",
+      "windspeed": 6.4
+    },
+    {
+      "date": "9 февраля",
+      "temperature": -3.9,
+      "precipitation": 0.8,
+      "pressure": 750,
+      "winddirection": "С",
+      "windspeed": 6.1
+    },
+    {
+      "date": "10 февраля",
+      "temperature": -6,
+      "precipitation": 0,
+      "pressure": 746,
+      "winddirection": "СЗ",
+      "windspeed": 5.2
+    },
+    {
+      "date": "11 февраля",
+      "temperature": -2.1,
+      "precipitation": 0,
+      "pressure": 743,
+      "winddirection": "СЗ",
+      "windspeed": 6.8
+    },
+    {
+      "date": "12 февраля",
+      "temperature": -3.3,
+      "precipitation": 0,
+      "pressure": 743,
+      "winddirection": "СЗ",
+      "windspeed": 7.1
+    },
+    {
+      "date": "13 февраля",
+      "temperature": -2.6,
+      "precipitation": 9.7,
+      "pressure": 741,
+      "winddirection": "СЗ",
+      "windspeed": 7.3
+    },
+    {
+      "date": "14 февраля",
+      "temperature": 1.7,
+      "precipitation": 0,
+      "pressure": 745,
+      "winddirection": "С",
+      "windspeed": 7.5
+    },
+    {
+      "date": "15 февраля",
+      "temperature": 1.4,
+      "precipitation": 0,
+      "pressure": 749,
+      "winddirection": "СВ",
+      "windspeed": 6.4
+    },
+    {
+      "date": "16 февраля",
+      "temperature": 1,
+      "precipitation": 0,
+      "pressure": 750,
+      "winddirection": "СЗ",
+      "windspeed": 7.9
+    },
+    {
+      "date": "17 февраля",
+      "temperature": 1.2,
+      "precipitation": 0.1,
+      "pressure": 749,
+      "winddirection": "З",
+      "windspeed": 8.3
+    },
+    {
+      "date": "18 февраля",
+      "temperature": 1.3,
+      "precipitation": 2,
+      "pressure": 746,
+      "winddirection": "З",
+      "windspeed": 9.8
+    },
+    {
+      "date": "19 февраля",
+      "temperature": 2.1,
+      "precipitation": 0.4,
+      "pressure": 744,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.3
+    },
+    {
+      "date": "20 февраля",
+      "temperature": 0.6,
+      "precipitation": 0,
+      "pressure": 742,
+      "winddirection": "Ю",
+      "windspeed": 6
+    },
+    {
+      "date": "21 февраля",
+      "temperature": -1.7,
+      "precipitation": 0,
+      "pressure": 740,
+      "winddirection": "ЮЗ",
+      "windspeed": 3.1
+    },
+    {
+      "date": "22 февраля",
+      "temperature": 0.5,
+      "precipitation": 0.5,
+      "pressure": 742,
+      "winddirection": "СЗ",
+      "windspeed": 4.1
+    },
+    {
+      "date": "23 февраля",
+      "temperature": 2.3,
+      "precipitation": 1,
+      "pressure": 741,
+      "winddirection": "ЮЗ",
+      "windspeed": 2.1
+    },
+    {
+      "date": "24 февраля",
+      "temperature": 2,
+      "precipitation": 2.3,
+      "pressure": 742,
+      "winddirection": "ЮЗ",
+      "windspeed": 2.8
+    },
+    {
+      "date": "25 февраля",
+      "temperature": 1.8,
+      "precipitation": 0,
+      "pressure": 743,
+      "winddirection": "ЮЗ",
+      "windspeed": 3.6
+    },
+    {
+      "date": "26 февраля",
+      "temperature": 1.6,
+      "precipitation": 13.3,
+      "pressure": 747,
+      "winddirection": "Ю",
+      "windspeed": 5
+    },
+    {
+      "date": "27 февраля",
+      "temperature": 1.1,
+      "precipitation": 0,
+      "pressure": 748,
+      "winddirection": "Ю",
+      "windspeed": 3.2
+    },
+    {
+      "date": "28 февраля",
+      "temperature": -0.8,
+      "precipitation": 0,
+      "pressure": 746,
+      "winddirection": "Ю",
+      "windspeed": 4.6
+    },
+    {
+      "date": "1 марта",
+      "temperature": 1.7,
+      "precipitation": 4.6,
+      "pressure": 742,
+      "winddirection": "ЮЗ",
+      "windspeed": 6.5
+    },
+    {
+      "date": "2 марта",
+      "temperature": 4.5,
+      "precipitation": 0.8,
+      "pressure": 743,
+      "winddirection": "Ю",
+      "windspeed": 3.5
+    },
+    {
+      "date": "3 марта",
+      "temperature": 3.8,
+      "precipitation": 0,
+      "pressure": 746,
+      "winddirection": "ЮЗ",
+      "windspeed": 2
+    },
+    {
+      "date": "4 марта",
+      "temperature": 2.6,
+      "precipitation": 0,
+      "pressure": 750,
+      "winddirection": "Ю",
+      "windspeed": 0.9
+    },
+    {
+      "date": "5 марта",
+      "temperature": 4.7,
+      "precipitation": 1.6,
+      "pressure": 749,
+      "winddirection": "ЮЗ",
+      "windspeed": 3
+    },
+    {
+      "date": "6 марта",
+      "temperature": 3.2,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "Ю",
+      "windspeed": 2.5
+    },
+    {
+      "date": "7 марта",
+      "temperature": 2,
+      "precipitation": 0,
+      "pressure": 751,
+      "winddirection": "ЮЗ",
+      "windspeed": 2.2
+    },
+    {
+      "date": "8 марта",
+      "temperature": 0.9,
+      "precipitation": 0,
+      "pressure": 753,
+      "winddirection": "СЗ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "9 марта",
+      "temperature": 2.5,
+      "precipitation": 0,
+      "pressure": 753,
+      "winddirection": "С",
+      "windspeed": 0.1
+    },
+    {
+      "date": "10 марта",
+      "temperature": 3.1,
+      "precipitation": 0,
+      "pressure": 750,
+      "winddirection": "З",
+      "windspeed": 3
+    },
+    {
+      "date": "11 марта",
+      "temperature": 0.2,
+      "precipitation": 0,
+      "pressure": 752,
+      "winddirection": "С",
+      "windspeed": 0.9
+    },
+    {
+      "date": "12 марта",
+      "temperature": -6.8,
+      "precipitation": 0,
+      "pressure": 754,
+      "winddirection": "СЗ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "13 марта",
+      "temperature": -8.2,
+      "precipitation": 0,
+      "pressure": 758,
+      "winddirection": "СВ",
+      "windspeed": 2.9
+    },
+    {
+      "date": "14 марта",
+      "temperature": -4.6,
+      "precipitation": 0,
+      "pressure": 756,
+      "winddirection": "В",
+      "windspeed": 0.6
+    },
+    {
+      "date": "15 марта",
+      "temperature": -2.7,
+      "precipitation": 0,
+      "pressure": 757,
+      "winddirection": "ЮВ",
+      "windspeed": 2.1
+    },
+    {
+      "date": "16 марта",
+      "temperature": -4,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "В",
+      "windspeed": 0.1
+    },
+    {
+      "date": "17 марта",
+      "temperature": -2.1,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "В",
+      "windspeed": 2.4
+    },
+    {
+      "date": "18 марта",
+      "temperature": -1.2,
+      "precipitation": 0.3,
+      "pressure": 762,
+      "winddirection": "СВ",
+      "windspeed": 1.1
+    },
+    {
+      "date": "19 марта",
+      "temperature": 0.4,
+      "precipitation": 1.1,
+      "pressure": 760,
+      "winddirection": "В",
+      "windspeed": 0.8
+    },
+    {
+      "date": "20 марта",
+      "temperature": 1,
+      "precipitation": 0,
+      "pressure": 756,
+      "winddirection": "Ю",
+      "windspeed": 1.1
+    },
+    {
+      "date": "21 марта",
+      "temperature": 2.8,
+      "precipitation": 0.7,
+      "pressure": 760,
+      "winddirection": "З",
+      "windspeed": 0.8
+    },
+    {
+      "date": "22 марта",
+      "temperature": 1.8,
+      "precipitation": 0.4,
+      "pressure": 761,
+      "winddirection": "ЮЗ",
+      "windspeed": 1.3
+    },
+    {
+      "date": "23 марта",
+      "temperature": 0.2,
+      "precipitation": 0.4,
+      "pressure": 764,
+      "winddirection": "Ю",
+      "windspeed": 4
+    },
+    {
+      "date": "24 марта",
+      "temperature": 2.4,
+      "precipitation": 0,
+      "pressure": 766,
+      "winddirection": "В",
+      "windspeed": 3.4
+    },
+    {
+      "date": "25 марта",
+      "temperature": 3.8,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "В",
+      "windspeed": 0.6
+    },
+    {
+      "date": "26 марта",
+      "temperature": 3,
+      "precipitation": 2.4,
+      "pressure": 762,
+      "winddirection": "Ю",
+      "windspeed": 0.3
+    },
+    {
+      "date": "27 марта",
+      "temperature": 0.8,
+      "precipitation": 0.8,
+      "pressure": 766,
+      "winddirection": "ЮВ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "28 марта",
+      "temperature": 1.3,
+      "precipitation": 1.2,
+      "pressure": 764,
+      "winddirection": "СВ",
+      "windspeed": 2.6
+    },
+    {
+      "date": "29 марта",
+      "temperature": -0.1,
+      "precipitation": 0,
+      "pressure": 767,
+      "winddirection": "СВ",
+      "windspeed": 5.1
+    },
+    {
+      "date": "30 марта",
+      "temperature": 0,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "С",
+      "windspeed": 3.2
+    },
+    {
+      "date": "31 марта",
+      "temperature": 1.2,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "СВ",
+      "windspeed": 3.1
+    },
+    {
+      "date": "1 апреля",
+      "temperature": 0,
+      "precipitation": 6.7,
+      "pressure": 759,
+      "winddirection": "СВ",
+      "windspeed": 3
+    },
+    {
+      "date": "2 апреля",
+      "temperature": 0.6,
+      "precipitation": 4.5,
+      "pressure": 756,
+      "winddirection": "СВ",
+      "windspeed": 0.9
+    },
+    {
+      "date": "3 апреля",
+      "temperature": 1.8,
+      "precipitation": 2.6,
+      "pressure": 756,
+      "winddirection": "СВ",
+      "windspeed": 2.9
+    },
+    {
+      "date": "4 апреля",
+      "temperature": 0.6,
+      "precipitation": 5.1,
+      "pressure": 761,
+      "winddirection": "СВ",
+      "windspeed": 5.1
+    },
+    {
+      "date": "5 апреля",
+      "temperature": 2,
+      "precipitation": 5,
+      "pressure": 763,
+      "winddirection": "В",
+      "windspeed": 6.8
+    },
+    {
+      "date": "6 апреля",
+      "temperature": 1.6,
+      "precipitation": 0,
+      "pressure": 765,
+      "winddirection": "В",
+      "windspeed": 4.7
+    },
+    {
+      "date": "7 апреля",
+      "temperature": 1.8,
+      "precipitation": 0,
+      "pressure": 767,
+      "winddirection": "В",
+      "windspeed": 4.5
+    },
+    {
+      "date": "8 апреля",
+      "temperature": 2.2,
+      "precipitation": 2.2,
+      "pressure": 772,
+      "winddirection": "Ю",
+      "windspeed": 6.9
+    },
+    {
+      "date": "9 апреля",
+      "temperature": 3.2,
+      "precipitation": 9,
+      "pressure": 776,
+      "winddirection": "Ю",
+      "windspeed": 4.8
+    },
+    {
+      "date": "10 апреля",
+      "temperature": 3.2,
+      "precipitation": 0.6,
+      "pressure": 775,
+      "winddirection": "ЮВ",
+      "windspeed": 2
+    },
+    {
+      "date": "11 апреля",
+      "temperature": 10.6,
+      "precipitation": 3.5,
+      "pressure": 774,
+      "winddirection": "В",
+      "windspeed": 0.1
+    },
+    {
+      "date": "12 апреля",
+      "temperature": 9.6,
+      "precipitation": 0.1,
+      "pressure": 770,
+      "winddirection": "В",
+      "windspeed": 0.1
+    },
+    {
+      "date": "13 апреля",
+      "temperature": 6.5,
+      "precipitation": 0,
+      "pressure": 767,
+      "winddirection": "В",
+      "windspeed": 2.6
+    },
+    {
+      "date": "14 апреля",
+      "temperature": 4.4,
+      "precipitation": 0,
+      "pressure": 770,
+      "winddirection": "СВ",
+      "windspeed": 1
+    },
+    {
+      "date": "15 апреля",
+      "temperature": 6.2,
+      "precipitation": 0,
+      "pressure": 774,
+      "winddirection": "СВ",
+      "windspeed": 0.8
+    },
+    {
+      "date": "16 апреля",
+      "temperature": 8.8,
+      "precipitation": 0,
+      "pressure": 773,
+      "winddirection": "СВ",
+      "windspeed": 1.3
+    },
+    {
+      "date": "17 апреля",
+      "temperature": 11.6,
+      "precipitation": 0,
+      "pressure": 772,
+      "winddirection": "СВ",
+      "windspeed": 0.2
+    },
+    {
+      "date": "18 апреля",
+      "temperature": 14.3,
+      "precipitation": 0,
+      "pressure": 775,
+      "winddirection": "С",
+      "windspeed": 2.2
+    },
+    {
+      "date": "19 апреля",
+      "temperature": 17.5,
+      "precipitation": 0,
+      "pressure": 777,
+      "winddirection": "С",
+      "windspeed": 4.4
+    },
+    {
+      "date": "20 апреля",
+      "temperature": 17.9,
+      "precipitation": 0,
+      "pressure": 775,
+      "winddirection": "СВ",
+      "windspeed": 5
+    },
+    {
+      "date": "21 апреля",
+      "temperature": 16.1,
+      "precipitation": 0,
+      "pressure": 772,
+      "winddirection": "В",
+      "windspeed": 2.3
+    },
+    {
+      "date": "22 апреля",
+      "temperature": 17.4,
+      "precipitation": 0,
+      "pressure": 772,
+      "winddirection": "ЮВ",
+      "windspeed": 2.6
+    },
+    {
+      "date": "23 апреля",
+      "temperature": 17,
+      "precipitation": 0,
+      "pressure": 770,
+      "winddirection": "В",
+      "windspeed": 2.6
+    },
+    {
+      "date": "24 апреля",
+      "temperature": 17.2,
+      "precipitation": 0,
+      "pressure": 773,
+      "winddirection": "Ю",
+      "windspeed": 5.4
+    },
+    {
+      "date": "25 апреля",
+      "temperature": 18.3,
+      "precipitation": 0,
+      "pressure": 776,
+      "winddirection": "Ю",
+      "windspeed": 3.1
+    },
+    {
+      "date": "26 апреля",
+      "temperature": 17.2,
+      "precipitation": 0.7,
+      "pressure": 778,
+      "winddirection": "Ю",
+      "windspeed": 3.3
+    },
+    {
+      "date": "27 апреля",
+      "temperature": 12.5,
+      "precipitation": 1,
+      "pressure": 780,
+      "winddirection": "З",
+      "windspeed": 1.7
+    },
+    {
+      "date": "28 апреля",
+      "temperature": 14.8,
+      "precipitation": 1.8,
+      "pressure": 780,
+      "winddirection": "ЮЗ",
+      "windspeed": 1.3
+    },
+    {
+      "date": "29 апреля",
+      "temperature": 12.3,
+      "precipitation": 0.4,
+      "pressure": 780,
+      "winddirection": "З",
+      "windspeed": 0.9
+    },
+    {
+      "date": "30 апреля",
+      "temperature": 6.3,
+      "precipitation": 0,
+      "pressure": 780,
+      "winddirection": "СЗ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "1 мая",
+      "temperature": 3.7,
+      "precipitation": 0,
+      "pressure": 775,
+      "winddirection": "З",
+      "windspeed": 1.1
+    },
+    {
+      "date": "2 мая",
+      "temperature": 1.1,
+      "precipitation": 0,
+      "pressure": 772,
+      "winddirection": "Ю",
+      "windspeed": 1.8
+    },
+    {
+      "date": "3 мая",
+      "temperature": 3.6,
+      "precipitation": 0,
+      "pressure": 772,
+      "winddirection": "ЮЗ",
+      "windspeed": 1
+    },
+    {
+      "date": "4 мая",
+      "temperature": 9.1,
+      "precipitation": 0,
+      "pressure": 775,
+      "winddirection": "ЮВ",
+      "windspeed": 2.1
+    },
+    {
+      "date": "5 мая",
+      "temperature": 10.5,
+      "precipitation": 1.5,
+      "pressure": 773,
+      "winddirection": "ЮЗ",
+      "windspeed": 1.5
+    },
+    {
+      "date": "6 мая",
+      "temperature": 8.4,
+      "precipitation": 0,
+      "pressure": 775,
+      "winddirection": "З",
+      "windspeed": 3.8
+    },
+    {
+      "date": "7 мая",
+      "temperature": 9.5,
+      "precipitation": 0,
+      "pressure": 779,
+      "winddirection": "СЗ",
+      "windspeed": 0.8
+    },
+    {
+      "date": "8 мая",
+      "temperature": 12.2,
+      "precipitation": 0,
+      "pressure": 778,
+      "winddirection": "З",
+      "windspeed": 0.5
+    },
+    {
+      "date": "9 мая",
+      "temperature": 12.4,
+      "precipitation": 0.3,
+      "pressure": 778,
+      "winddirection": "СЗ",
+      "windspeed": 2.7
+    },
+    {
+      "date": "10 мая",
+      "temperature": 9.9,
+      "precipitation": 12.9,
+      "pressure": 780,
+      "winddirection": "ЮЗ",
+      "windspeed": 4.2
+    },
+    {
+      "date": "11 мая",
+      "temperature": 3.3,
+      "precipitation": 5.2,
+      "pressure": 776,
+      "winddirection": "З",
+      "windspeed": 1.8
+    },
+    {
+      "date": "12 мая",
+      "temperature": 6.5,
+      "precipitation": 0,
+      "pressure": 777,
+      "winddirection": "С",
+      "windspeed": 3.6
+    },
+    {
+      "date": "13 мая",
+      "temperature": 10.8,
+      "precipitation": 0,
+      "pressure": 774,
+      "winddirection": "З",
+      "windspeed": 6.1
+    },
+    {
+      "date": "14 мая",
+      "temperature": 17.8,
+      "precipitation": 0.3,
+      "pressure": 777,
+      "winddirection": "Ю",
+      "windspeed": 5.1
+    },
+    {
+      "date": "15 мая",
+      "temperature": 20.4,
+      "precipitation": 0.3,
+      "pressure": 777,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.6
+    },
+    {
+      "date": "16 мая",
+      "temperature": 10.9,
+      "precipitation": 3.8,
+      "pressure": 772,
+      "winddirection": "ЮВ",
+      "windspeed": 8.4
+    },
+    {
+      "date": "17 мая",
+      "temperature": 10,
+      "precipitation": 0,
+      "pressure": 774,
+      "winddirection": "СВ",
+      "windspeed": 9.7
+    },
+    {
+      "date": "18 мая",
+      "temperature": 13.2,
+      "precipitation": 0,
+      "pressure": 770,
+      "winddirection": "ЮВ",
+      "windspeed": 6.9
+    },
+    {
+      "date": "19 мая",
+      "temperature": 15.5,
+      "precipitation": 0,
+      "pressure": 771,
+      "winddirection": "ЮВ",
+      "windspeed": 7.2
+    },
+    {
+      "date": "20 мая",
+      "temperature": 17.8,
+      "precipitation": 0.3,
+      "pressure": 768,
+      "winddirection": "ЮВ",
+      "windspeed": 8.9
+    },
+    {
+      "date": "21 мая",
+      "temperature": 19.6,
+      "precipitation": 0,
+      "pressure": 772,
+      "winddirection": "В",
+      "windspeed": 6.5
+    },
+    {
+      "date": "22 мая",
+      "temperature": 20.9,
+      "precipitation": 0,
+      "pressure": 771,
+      "winddirection": "ЮВ",
+      "windspeed": 4
+    },
+    {
+      "date": "23 мая",
+      "temperature": 18.1,
+      "precipitation": 0.4,
+      "pressure": 773,
+      "winddirection": "В",
+      "windspeed": 3.6
+    },
+    {
+      "date": "24 мая",
+      "temperature": 19.1,
+      "precipitation": 0,
+      "pressure": 774,
+      "winddirection": "ЮВ",
+      "windspeed": 6.5
+    },
+    {
+      "date": "25 мая",
+      "temperature": 23.5,
+      "precipitation": 0,
+      "pressure": 778,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.8
+    },
+    {
+      "date": "26 мая",
+      "temperature": 23.2,
+      "precipitation": 0,
+      "pressure": 780,
+      "winddirection": "Ю",
+      "windspeed": 8.9
+    },
+    {
+      "date": "27 мая",
+      "temperature": 22.7,
+      "precipitation": 0.1,
+      "pressure": 777,
+      "winddirection": "ЮЗ",
+      "windspeed": 6.5
+    },
+    {
+      "date": "28 мая",
+      "temperature": 24,
+      "precipitation": 0,
+      "pressure": 773,
+      "winddirection": "Ю",
+      "windspeed": 4.8
+    },
+    {
+      "date": "29 мая",
+      "temperature": 24.2,
+      "precipitation": 0,
+      "pressure": 776,
+      "winddirection": "В",
+      "windspeed": 6.4
+    },
+    {
+      "date": "30 мая",
+      "temperature": 23.2,
+      "precipitation": 0,
+      "pressure": 775,
+      "winddirection": "ЮВ",
+      "windspeed": 8.2
+    },
+    {
+      "date": "31 мая",
+      "temperature": 23.5,
+      "precipitation": 0,
+      "pressure": 773,
+      "winddirection": "Ю",
+      "windspeed": 9.1
+    },
+    {
+      "date": "1 июня",
+      "temperature": 22.2,
+      "precipitation": 1.2,
+      "pressure": 770,
+      "winddirection": "ЮВ",
+      "windspeed": 8.4
+    },
+    {
+      "date": "2 июня",
+      "temperature": 23.1,
+      "precipitation": 0,
+      "pressure": 774,
+      "winddirection": "СВ",
+      "windspeed": 8.4
+    },
+    {
+      "date": "3 июня",
+      "temperature": 23.3,
+      "precipitation": 0,
+      "pressure": 778,
+      "winddirection": "СЗ",
+      "windspeed": 8.3
+    },
+    {
+      "date": "4 июня",
+      "temperature": 21.7,
+      "precipitation": 0,
+      "pressure": 780,
+      "winddirection": "З",
+      "windspeed": 9.4
+    },
+    {
+      "date": "5 июня",
+      "temperature": 19.1,
+      "precipitation": 0,
+      "pressure": 780,
+      "winddirection": "З",
+      "windspeed": 7.9
+    },
+    {
+      "date": "6 июня",
+      "temperature": 13.5,
+      "precipitation": 0,
+      "pressure": 776,
+      "winddirection": "С",
+      "windspeed": 7.1
+    },
+    {
+      "date": "7 июня",
+      "temperature": 16.4,
+      "precipitation": 0,
+      "pressure": 772,
+      "winddirection": "СВ",
+      "windspeed": 5.6
+    },
+    {
+      "date": "8 июня",
+      "temperature": 19,
+      "precipitation": 0,
+      "pressure": 769,
+      "winddirection": "В",
+      "windspeed": 4.6
+    },
+    {
+      "date": "9 июня",
+      "temperature": 22.2,
+      "precipitation": 0,
+      "pressure": 773,
+      "winddirection": "ЮВ",
+      "windspeed": 1.9
+    },
+    {
+      "date": "10 июня",
+      "temperature": 22,
+      "precipitation": 0,
+      "pressure": 773,
+      "winddirection": "ЮЗ",
+      "windspeed": 3.9
+    },
+    {
+      "date": "11 июня",
+      "temperature": 22.7,
+      "precipitation": 0,
+      "pressure": 771,
+      "winddirection": "ЮЗ",
+      "windspeed": 5.5
+    },
+    {
+      "date": "12 июня",
+      "temperature": 21.3,
+      "precipitation": 34.1,
+      "pressure": 768,
+      "winddirection": "Ю",
+      "windspeed": 7.9
+    },
+    {
+      "date": "13 июня",
+      "temperature": 21.6,
+      "precipitation": 0,
+      "pressure": 765,
+      "winddirection": "З",
+      "windspeed": 6.6
+    },
+    {
+      "date": "14 июня",
+      "temperature": 24.1,
+      "precipitation": 0.3,
+      "pressure": 761,
+      "winddirection": "Ю",
+      "windspeed": 7.3
+    },
+    {
+      "date": "15 июня",
+      "temperature": 22.9,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "ЮЗ",
+      "windspeed": 5.5
+    },
+    {
+      "date": "16 июня",
+      "temperature": 23.5,
+      "precipitation": 0,
+      "pressure": 758,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.6
+    },
+    {
+      "date": "17 июня",
+      "temperature": 23.8,
+      "precipitation": 0,
+      "pressure": 758,
+      "winddirection": "ЮЗ",
+      "windspeed": 7
+    },
+    {
+      "date": "18 июня",
+      "temperature": 21.9,
+      "precipitation": 0,
+      "pressure": 755,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.7
+    },
+    {
+      "date": "19 июня",
+      "temperature": 19.1,
+      "precipitation": 5.7,
+      "pressure": 752,
+      "winddirection": "З",
+      "windspeed": 8.9
+    },
+    {
+      "date": "20 июня",
+      "temperature": 17.8,
+      "precipitation": 0,
+      "pressure": 751,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.1
+    },
+    {
+      "date": "21 июня",
+      "temperature": 13.6,
+      "precipitation": 19.8,
+      "pressure": 750,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.7
+    },
+    {
+      "date": "22 июня",
+      "temperature": 14.5,
+      "precipitation": 4.8,
+      "pressure": 751,
+      "winddirection": "З",
+      "windspeed": 6.9
+    },
+    {
+      "date": "23 июня",
+      "temperature": 14.1,
+      "precipitation": 5.1,
+      "pressure": 754,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.4
+    },
+    {
+      "date": "24 июня",
+      "temperature": 15.9,
+      "precipitation": 0.4,
+      "pressure": 753,
+      "winddirection": "Ю",
+      "windspeed": 9.3
+    },
+    {
+      "date": "25 июня",
+      "temperature": 17.7,
+      "precipitation": 0,
+      "pressure": 756,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.9
+    },
+    {
+      "date": "26 июня",
+      "temperature": 19.5,
+      "precipitation": 0,
+      "pressure": 753,
+      "winddirection": "Ю",
+      "windspeed": 9.2
+    },
+    {
+      "date": "27 июня",
+      "temperature": 20.5,
+      "precipitation": 0.7,
+      "pressure": 756,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.8
+    },
+    {
+      "date": "28 июня",
+      "temperature": 17.7,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "ЮЗ",
+      "windspeed": 9.1
+    },
+    {
+      "date": "29 июня",
+      "temperature": 17.8,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "З",
+      "windspeed": 8.5
+    },
+    {
+      "date": "30 июня",
+      "temperature": 18,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "СЗ",
+      "windspeed": 7.3
+    },
+    {
+      "date": "1 июля",
+      "temperature": 16.9,
+      "precipitation": 0,
+      "pressure": 758,
+      "winddirection": "С",
+      "windspeed": 8
+    },
+    {
+      "date": "2 июля",
+      "temperature": 16.1,
+      "precipitation": 6,
+      "pressure": 756,
+      "winddirection": "З",
+      "windspeed": 6.8
+    },
+    {
+      "date": "3 июля",
+      "temperature": 14.6,
+      "precipitation": 0,
+      "pressure": 751,
+      "winddirection": "З",
+      "windspeed": 5.4
+    },
+    {
+      "date": "4 июля",
+      "temperature": 18.3,
+      "precipitation": 0,
+      "pressure": 753,
+      "winddirection": "Ю",
+      "windspeed": 5.2
+    },
+    {
+      "date": "5 июля",
+      "temperature": 21.3,
+      "precipitation": 0.1,
+      "pressure": 756,
+      "winddirection": "ЮВ",
+      "windspeed": 4.8
+    },
+    {
+      "date": "6 июля",
+      "temperature": 17.7,
+      "precipitation": 1.7,
+      "pressure": 758,
+      "winddirection": "Ю",
+      "windspeed": 5.5
+    },
+    {
+      "date": "7 июля",
+      "temperature": 16.2,
+      "precipitation": 1.7,
+      "pressure": 755,
+      "winddirection": "ЮВ",
+      "windspeed": 8.3
+    },
+    {
+      "date": "8 июля",
+      "temperature": 18.9,
+      "precipitation": 0,
+      "pressure": 756,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.8
+    },
+    {
+      "date": "9 июля",
+      "temperature": 21.6,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "Ю",
+      "windspeed": 8.2
+    },
+    {
+      "date": "10 июля",
+      "temperature": 18.5,
+      "precipitation": 0,
+      "pressure": 763,
+      "winddirection": "Ю",
+      "windspeed": 6.1
+    },
+    {
+      "date": "11 июля",
+      "temperature": 15.2,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "В",
+      "windspeed": 6.4
+    },
+    {
+      "date": "12 июля",
+      "temperature": 16.1,
+      "precipitation": 0.6,
+      "pressure": 758,
+      "winddirection": "В",
+      "windspeed": 4.3
+    },
+    {
+      "date": "13 июля",
+      "temperature": 16.6,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "В",
+      "windspeed": 5.5
+    },
+    {
+      "date": "14 июля",
+      "temperature": 20.1,
+      "precipitation": 0.4,
+      "pressure": 764,
+      "winddirection": "В",
+      "windspeed": 5.1
+    },
+    {
+      "date": "15 июля",
+      "temperature": 15.2,
+      "precipitation": 2.4,
+      "pressure": 765,
+      "winddirection": "В",
+      "windspeed": 3.4
+    },
+    {
+      "date": "16 июля",
+      "temperature": 12.7,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "С",
+      "windspeed": 3.9
+    },
+    {
+      "date": "17 июля",
+      "temperature": 14.6,
+      "precipitation": 0,
+      "pressure": 758,
+      "winddirection": "СВ",
+      "windspeed": 1.8
+    },
+    {
+      "date": "18 июля",
+      "temperature": 17.6,
+      "precipitation": 0,
+      "pressure": 754,
+      "winddirection": "С",
+      "windspeed": 1.9
+    },
+    {
+      "date": "19 июля",
+      "temperature": 19.3,
+      "precipitation": 0,
+      "pressure": 757,
+      "winddirection": "З",
+      "windspeed": 1.8
+    },
+    {
+      "date": "20 июля",
+      "temperature": 16.9,
+      "precipitation": 17.2,
+      "pressure": 758,
+      "winddirection": "С",
+      "windspeed": 0.8
+    },
+    {
+      "date": "21 июля",
+      "temperature": 17.9,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "З",
+      "windspeed": 0.1
+    },
+    {
+      "date": "22 июля",
+      "temperature": 19.9,
+      "precipitation": 0,
+      "pressure": 765,
+      "winddirection": "ЮЗ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "23 июля",
+      "temperature": 22.2,
+      "precipitation": 0,
+      "pressure": 768,
+      "winddirection": "Ю",
+      "windspeed": 2.2
+    },
+    {
+      "date": "24 июля",
+      "temperature": 18.4,
+      "precipitation": 3.3,
+      "pressure": 769,
+      "winddirection": "З",
+      "windspeed": 4.2
+    },
+    {
+      "date": "25 июля",
+      "temperature": 16.4,
+      "precipitation": 10.3,
+      "pressure": 770,
+      "winddirection": "ЮЗ",
+      "windspeed": 4.7
+    },
+    {
+      "date": "26 июля",
+      "temperature": 18.9,
+      "precipitation": 0.1,
+      "pressure": 765,
+      "winddirection": "ЮВ",
+      "windspeed": 7.5
+    },
+    {
+      "date": "27 июля",
+      "temperature": 17.7,
+      "precipitation": 0,
+      "pressure": 766,
+      "winddirection": "ЮВ",
+      "windspeed": 5.3
+    },
+    {
+      "date": "28 июля",
+      "temperature": 14.9,
+      "precipitation": 8.2,
+      "pressure": 765,
+      "winddirection": "СВ",
+      "windspeed": 6.6
+    },
+    {
+      "date": "29 июля",
+      "temperature": 16.7,
+      "precipitation": 0,
+      "pressure": 763,
+      "winddirection": "В",
+      "windspeed": 5.9
+    },
+    {
+      "date": "30 июля",
+      "temperature": 18.6,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "ЮВ",
+      "windspeed": 5.9
+    },
+    {
+      "date": "31 июля",
+      "temperature": 18,
+      "precipitation": 2.2,
+      "pressure": 760,
+      "winddirection": "В",
+      "windspeed": 4.7
+    },
+    {
+      "date": "1 августа",
+      "temperature": 17.9,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "В",
+      "windspeed": 5.9
+    },
+    {
+      "date": "2 августа",
+      "temperature": 18.7,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "ЮВ",
+      "windspeed": 8.1
+    },
+    {
+      "date": "3 августа",
+      "temperature": 19.1,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "Ю",
+      "windspeed": 9
+    },
+    {
+      "date": "4 августа",
+      "temperature": 21.6,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "З",
+      "windspeed": 9
+    },
+    {
+      "date": "5 августа",
+      "temperature": 18.6,
+      "precipitation": 17.8,
+      "pressure": 758,
+      "winddirection": "З",
+      "windspeed": 6.1
+    },
+    {
+      "date": "6 августа",
+      "temperature": 16.1,
+      "precipitation": 0.9,
+      "pressure": 761,
+      "winddirection": "СЗ",
+      "windspeed": 3.4
+    },
+    {
+      "date": "7 августа",
+      "temperature": 15.9,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "С",
+      "windspeed": 5.3
+    },
+    {
+      "date": "8 августа",
+      "temperature": 17,
+      "precipitation": 8.2,
+      "pressure": 758,
+      "winddirection": "В",
+      "windspeed": 7.5
+    },
+    {
+      "date": "9 августа",
+      "temperature": 14,
+      "precipitation": 1.9,
+      "pressure": 760,
+      "winddirection": "ЮВ",
+      "windspeed": 6.9
+    },
+    {
+      "date": "10 августа",
+      "temperature": 13.3,
+      "precipitation": 0,
+      "pressure": 765,
+      "winddirection": "Ю",
+      "windspeed": 6.7
+    },
+    {
+      "date": "11 августа",
+      "temperature": 12.9,
+      "precipitation": 7.1,
+      "pressure": 765,
+      "winddirection": "Ю",
+      "windspeed": 4.3
+    },
+    {
+      "date": "12 августа",
+      "temperature": 12.1,
+      "precipitation": 0,
+      "pressure": 766,
+      "winddirection": "З",
+      "windspeed": 6.9
+    },
+    {
+      "date": "13 августа",
+      "temperature": 10.7,
+      "precipitation": 3.7,
+      "pressure": 768,
+      "winddirection": "З",
+      "windspeed": 4.5
+    },
+    {
+      "date": "14 августа",
+      "temperature": 10.7,
+      "precipitation": 0.5,
+      "pressure": 769,
+      "winddirection": "СЗ",
+      "windspeed": 3.2
+    },
+    {
+      "date": "15 августа",
+      "temperature": 14.3,
+      "precipitation": 0.4,
+      "pressure": 769,
+      "winddirection": "З",
+      "windspeed": 4.4
+    },
+    {
+      "date": "16 августа",
+      "temperature": 15.3,
+      "precipitation": 0,
+      "pressure": 767,
+      "winddirection": "Ю",
+      "windspeed": 2
+    },
+    {
+      "date": "17 августа",
+      "temperature": 16.2,
+      "precipitation": 0,
+      "pressure": 768,
+      "winddirection": "ЮЗ",
+      "windspeed": 4
+    },
+    {
+      "date": "18 августа",
+      "temperature": 18.6,
+      "precipitation": 0,
+      "pressure": 767,
+      "winddirection": "Ю",
+      "windspeed": 3.4
+    },
+    {
+      "date": "19 августа",
+      "temperature": 20.7,
+      "precipitation": 0,
+      "pressure": 770,
+      "winddirection": "ЮЗ",
+      "windspeed": 1.8
+    },
+    {
+      "date": "20 августа",
+      "temperature": 18.4,
+      "precipitation": 1.2,
+      "pressure": 773,
+      "winddirection": "З",
+      "windspeed": 1.7
+    },
+    {
+      "date": "21 августа",
+      "temperature": 14.1,
+      "precipitation": 0,
+      "pressure": 769,
+      "winddirection": "ЮЗ",
+      "windspeed": 0.5
+    },
+    {
+      "date": "22 августа",
+      "temperature": 13.1,
+      "precipitation": 0,
+      "pressure": 768,
+      "winddirection": "ЮВ",
+      "windspeed": 1.5
+    },
+    {
+      "date": "23 августа",
+      "temperature": 17.2,
+      "precipitation": 0,
+      "pressure": 771,
+      "winddirection": "СВ",
+      "windspeed": 3.8
+    },
+    {
+      "date": "24 августа",
+      "temperature": 20,
+      "precipitation": 0,
+      "pressure": 766,
+      "winddirection": "СВ",
+      "windspeed": 5
+    },
+    {
+      "date": "25 августа",
+      "temperature": 20.7,
+      "precipitation": 0,
+      "pressure": 764,
+      "winddirection": "С",
+      "windspeed": 7.2
+    },
+    {
+      "date": "26 августа",
+      "temperature": 21.5,
+      "precipitation": 0,
+      "pressure": 766,
+      "winddirection": "СЗ",
+      "windspeed": 7.7
+    },
+    {
+      "date": "27 августа",
+      "temperature": 19.4,
+      "precipitation": 0,
+      "pressure": 764,
+      "winddirection": "С",
+      "windspeed": 8.5
+    },
+    {
+      "date": "28 августа",
+      "temperature": 18.3,
+      "precipitation": 24.3,
+      "pressure": 769,
+      "winddirection": "СВ",
+      "windspeed": 8
+    },
+    {
+      "date": "29 августа",
+      "temperature": 17.1,
+      "precipitation": 0,
+      "pressure": 770,
+      "winddirection": "С",
+      "windspeed": 9.1
+    },
+    {
+      "date": "30 августа",
+      "temperature": 17.4,
+      "precipitation": 0,
+      "pressure": 773,
+      "winddirection": "В",
+      "windspeed": 9.9
+    },
+    {
+      "date": "31 августа",
+      "temperature": 19.7,
+      "precipitation": 0.1,
+      "pressure": 769,
+      "winddirection": "В",
+      "windspeed": 9.2
+    },
+    {
+      "date": "1 сентября",
+      "temperature": 19.3,
+      "precipitation": 0.1,
+      "pressure": 765,
+      "winddirection": "ЮВ",
+      "windspeed": 8.2
+    },
+    {
+      "date": "2 сентября",
+      "temperature": 22,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "В",
+      "windspeed": 9.5
+    },
+    {
+      "date": "3 сентября",
+      "temperature": 23.4,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "С",
+      "windspeed": 7.9
+    },
+    {
+      "date": "4 сентября",
+      "temperature": 21.2,
+      "precipitation": 0.5,
+      "pressure": 759,
+      "winddirection": "СЗ",
+      "windspeed": 7.5
+    },
+    {
+      "date": "5 сентября",
+      "temperature": 19.5,
+      "precipitation": 2,
+      "pressure": 764,
+      "winddirection": "СЗ",
+      "windspeed": 7.9
+    },
+    {
+      "date": "6 сентября",
+      "temperature": 17.4,
+      "precipitation": 0.6,
+      "pressure": 760,
+      "winddirection": "СВ",
+      "windspeed": 8.8
+    },
+    {
+      "date": "7 сентября",
+      "temperature": 15.8,
+      "precipitation": 12.9,
+      "pressure": 759,
+      "winddirection": "ЮВ",
+      "windspeed": 7.9
+    },
+    {
+      "date": "8 сентября",
+      "temperature": 17.8,
+      "precipitation": 9.6,
+      "pressure": 762,
+      "winddirection": "В",
+      "windspeed": 9.5
+    },
+    {
+      "date": "9 сентября",
+      "temperature": 16.9,
+      "precipitation": 0.5,
+      "pressure": 759,
+      "winddirection": "ЮВ",
+      "windspeed": 9.3
+    },
+    {
+      "date": "10 сентября",
+      "temperature": 16.6,
+      "precipitation": 0,
+      "pressure": 757,
+      "winddirection": "В",
+      "windspeed": 8.5
+    },
+    {
+      "date": "11 сентября",
+      "temperature": 17.3,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "Ю",
+      "windspeed": 8.2
+    },
+    {
+      "date": "12 сентября",
+      "temperature": 15.6,
+      "precipitation": 4.9,
+      "pressure": 757,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.5
+    },
+    {
+      "date": "13 сентября",
+      "temperature": 12.7,
+      "precipitation": 0,
+      "pressure": 756,
+      "winddirection": "ЮЗ",
+      "windspeed": 5.5
+    },
+    {
+      "date": "14 сентября",
+      "temperature": 10.2,
+      "precipitation": 0,
+      "pressure": 751,
+      "winddirection": "З",
+      "windspeed": 5.2
+    },
+    {
+      "date": "15 сентября",
+      "temperature": 8.3,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "ЮЗ",
+      "windspeed": 4
+    },
+    {
+      "date": "16 сентября",
+      "temperature": 7.4,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "Ю",
+      "windspeed": 6.2
+    },
+    {
+      "date": "17 сентября",
+      "temperature": 5.2,
+      "precipitation": 0,
+      "pressure": 750,
+      "winddirection": "ЮВ",
+      "windspeed": 5.3
+    },
+    {
+      "date": "18 сентября",
+      "temperature": 6.3,
+      "precipitation": 0,
+      "pressure": 749,
+      "winddirection": "СВ",
+      "windspeed": 2.9
+    },
+    {
+      "date": "19 сентября",
+      "temperature": 6.8,
+      "precipitation": 0,
+      "pressure": 749,
+      "winddirection": "В",
+      "windspeed": 3.3
+    },
+    {
+      "date": "20 сентября",
+      "temperature": 8.1,
+      "precipitation": 0,
+      "pressure": 754,
+      "winddirection": "В",
+      "windspeed": 3.8
+    },
+    {
+      "date": "21 сентября",
+      "temperature": 6.6,
+      "precipitation": 0,
+      "pressure": 749,
+      "winddirection": "В",
+      "windspeed": 4.4
+    },
+    {
+      "date": "22 сентября",
+      "temperature": 6.8,
+      "precipitation": 6.8,
+      "pressure": 745,
+      "winddirection": "ЮВ",
+      "windspeed": 6.2
+    },
+    {
+      "date": "23 сентября",
+      "temperature": 8.1,
+      "precipitation": 0,
+      "pressure": 741,
+      "winddirection": "Ю",
+      "windspeed": 5.1
+    },
+    {
+      "date": "24 сентября",
+      "temperature": 6.7,
+      "precipitation": 0,
+      "pressure": 744,
+      "winddirection": "ЮЗ",
+      "windspeed": 2.5
+    },
+    {
+      "date": "25 сентября",
+      "temperature": 9.2,
+      "precipitation": 0,
+      "pressure": 742,
+      "winddirection": "ЮЗ",
+      "windspeed": 2.2
+    },
+    {
+      "date": "26 сентября",
+      "temperature": 10.8,
+      "precipitation": 0,
+      "pressure": 740,
+      "winddirection": "Ю",
+      "windspeed": 4.5
+    },
+    {
+      "date": "27 сентября",
+      "temperature": 12.2,
+      "precipitation": 0,
+      "pressure": 740,
+      "winddirection": "ЮЗ",
+      "windspeed": 1.5
+    },
+    {
+      "date": "28 сентября",
+      "temperature": 12.8,
+      "precipitation": 0.6,
+      "pressure": 744,
+      "winddirection": "Ю",
+      "windspeed": 3.1
+    },
+    {
+      "date": "29 сентября",
+      "temperature": 10.9,
+      "precipitation": 3.1,
+      "pressure": 744,
+      "winddirection": "Ю",
+      "windspeed": 3
+    },
+    {
+      "date": "30 сентября",
+      "temperature": 12.8,
+      "precipitation": 5.9,
+      "pressure": 745,
+      "winddirection": "Ю",
+      "windspeed": 4.7
+    },
+    {
+      "date": "1 октября",
+      "temperature": 9.9,
+      "precipitation": 0.1,
+      "pressure": 745,
+      "winddirection": "Ю",
+      "windspeed": 2
+    },
+    {
+      "date": "2 октября",
+      "temperature": 9.3,
+      "precipitation": 0,
+      "pressure": 749,
+      "winddirection": "Ю",
+      "windspeed": 2.1
+    },
+    {
+      "date": "3 октября",
+      "temperature": 5.5,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "ЮЗ",
+      "windspeed": 3.2
+    },
+    {
+      "date": "4 октября",
+      "temperature": 7.1,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "ЮВ",
+      "windspeed": 5.9
+    },
+    {
+      "date": "5 октября",
+      "temperature": 9.3,
+      "precipitation": 0,
+      "pressure": 750,
+      "winddirection": "В",
+      "windspeed": 4.9
+    },
+    {
+      "date": "6 октября",
+      "temperature": 7,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "СВ",
+      "windspeed": 4.2
+    },
+    {
+      "date": "7 октября",
+      "temperature": 8.3,
+      "precipitation": 0,
+      "pressure": 751,
+      "winddirection": "С",
+      "windspeed": 2.3
+    },
+    {
+      "date": "8 октября",
+      "temperature": 10,
+      "precipitation": 0.5,
+      "pressure": 747,
+      "winddirection": "С",
+      "windspeed": 5.2
+    },
+    {
+      "date": "9 октября",
+      "temperature": 11,
+      "precipitation": 2.1,
+      "pressure": 751,
+      "winddirection": "СЗ",
+      "windspeed": 7.9
+    },
+    {
+      "date": "10 октября",
+      "temperature": 10.9,
+      "precipitation": 0.4,
+      "pressure": 747,
+      "winddirection": "СВ",
+      "windspeed": 6.2
+    },
+    {
+      "date": "11 октября",
+      "temperature": 11.4,
+      "precipitation": 0,
+      "pressure": 751,
+      "winddirection": "В",
+      "windspeed": 5.4
+    },
+    {
+      "date": "12 октября",
+      "temperature": 9.9,
+      "precipitation": 0,
+      "pressure": 754,
+      "winddirection": "С",
+      "windspeed": 4.6
+    },
+    {
+      "date": "13 октября",
+      "temperature": 8.2,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "С",
+      "windspeed": 7.3
+    },
+    {
+      "date": "14 октября",
+      "temperature": 8.9,
+      "precipitation": 0,
+      "pressure": 763,
+      "winddirection": "СЗ",
+      "windspeed": 5.1
+    },
+    {
+      "date": "15 октября",
+      "temperature": 2.5,
+      "precipitation": 0.8,
+      "pressure": 760,
+      "winddirection": "С",
+      "windspeed": 2.7
+    },
+    {
+      "date": "16 октября",
+      "temperature": -0.2,
+      "precipitation": 0,
+      "pressure": 762,
+      "winddirection": "З",
+      "windspeed": 0.9
+    },
+    {
+      "date": "17 октября",
+      "temperature": 5.3,
+      "precipitation": 0,
+      "pressure": 757,
+      "winddirection": "З",
+      "windspeed": 0.1
+    },
+    {
+      "date": "18 октября",
+      "temperature": 9.4,
+      "precipitation": 0,
+      "pressure": 761,
+      "winddirection": "З",
+      "windspeed": 1.7
+    },
+    {
+      "date": "19 октября",
+      "temperature": 10.6,
+      "precipitation": 3.5,
+      "pressure": 760,
+      "winddirection": "З",
+      "windspeed": 1.7
+    },
+    {
+      "date": "20 октября",
+      "temperature": 7.9,
+      "precipitation": 8.6,
+      "pressure": 759,
+      "winddirection": "Ю",
+      "windspeed": 3.3
+    },
+    {
+      "date": "21 октября",
+      "temperature": 4.5,
+      "precipitation": 1,
+      "pressure": 762,
+      "winddirection": "ЮЗ",
+      "windspeed": 1.9
+    },
+    {
+      "date": "22 октября",
+      "temperature": 0.6,
+      "precipitation": 0.6,
+      "pressure": 760,
+      "winddirection": "З",
+      "windspeed": 2.1
+    },
+    {
+      "date": "23 октября",
+      "temperature": -0.1,
+      "precipitation": 0,
+      "pressure": 763,
+      "winddirection": "Ю",
+      "windspeed": 1.3
+    },
+    {
+      "date": "24 октября",
+      "temperature": 4.8,
+      "precipitation": 0,
+      "pressure": 759,
+      "winddirection": "Ю",
+      "windspeed": 0.8
+    },
+    {
+      "date": "25 октября",
+      "temperature": 5.4,
+      "precipitation": 0,
+      "pressure": 757,
+      "winddirection": "В",
+      "windspeed": 0.1
+    },
+    {
+      "date": "26 октября",
+      "temperature": 6.8,
+      "precipitation": 0,
+      "pressure": 756,
+      "winddirection": "В",
+      "windspeed": 1.2
+    },
+    {
+      "date": "27 октября",
+      "temperature": 4.7,
+      "precipitation": 0,
+      "pressure": 756,
+      "winddirection": "ЮВ",
+      "windspeed": 0.6
+    },
+    {
+      "date": "28 октября",
+      "temperature": 6.5,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "СВ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "29 октября",
+      "temperature": 6.3,
+      "precipitation": 0.1,
+      "pressure": 759,
+      "winddirection": "В",
+      "windspeed": 1.3
+    },
+    {
+      "date": "30 октября",
+      "temperature": 2.6,
+      "precipitation": 0,
+      "pressure": 760,
+      "winddirection": "Ю",
+      "windspeed": 4.1
+    },
+    {
+      "date": "31 октября",
+      "temperature": 2.9,
+      "precipitation": 1,
+      "pressure": 758,
+      "winddirection": "ЮЗ",
+      "windspeed": 1.7
+    },
+    {
+      "date": "1 ноября",
+      "temperature": -3.4,
+      "precipitation": 0.4,
+      "pressure": 753,
+      "winddirection": "ЮЗ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "2 ноября",
+      "temperature": -3.6,
+      "precipitation": 8.5,
+      "pressure": 750,
+      "winddirection": "Ю",
+      "windspeed": 0.1
+    },
+    {
+      "date": "3 ноября",
+      "temperature": 1.9,
+      "precipitation": 12.2,
+      "pressure": 746,
+      "winddirection": "ЮЗ",
+      "windspeed": 0.1
+    },
+    {
+      "date": "4 ноября",
+      "temperature": -2,
+      "precipitation": 1.5,
+      "pressure": 747,
+      "winddirection": "З",
+      "windspeed": 1.6
+    },
+    {
+      "date": "5 ноября",
+      "temperature": -3.9,
+      "precipitation": 1.3,
+      "pressure": 748,
+      "winddirection": "СЗ",
+      "windspeed": 0.7
+    },
+    {
+      "date": "6 ноября",
+      "temperature": -3.4,
+      "precipitation": 0.3,
+      "pressure": 746,
+      "winddirection": "С",
+      "windspeed": 0.4
+    },
+    {
+      "date": "7 ноября",
+      "temperature": -2.3,
+      "precipitation": 0.4,
+      "pressure": 749,
+      "winddirection": "СЗ",
+      "windspeed": 3.2
+    },
+    {
+      "date": "8 ноября",
+      "temperature": -1.7,
+      "precipitation": 6.5,
+      "pressure": 746,
+      "winddirection": "С",
+      "windspeed": 4
+    },
+    {
+      "date": "9 ноября",
+      "temperature": -2.9,
+      "precipitation": 15.5,
+      "pressure": 742,
+      "winddirection": "СЗ",
+      "windspeed": 4.5
+    },
+    {
+      "date": "10 ноября",
+      "temperature": -3.7,
+      "precipitation": 3.3,
+      "pressure": 740,
+      "winddirection": "З",
+      "windspeed": 3.2
+    },
+    {
+      "date": "11 ноября",
+      "temperature": -8.5,
+      "precipitation": 0,
+      "pressure": 740,
+      "winddirection": "З",
+      "windspeed": 1.5
+    },
+    {
+      "date": "12 ноября",
+      "temperature": -6.7,
+      "precipitation": 0.7,
+      "pressure": 741,
+      "winddirection": "З",
+      "windspeed": 0.1
+    },
+    {
+      "date": "13 ноября",
+      "temperature": -6.8,
+      "precipitation": 3,
+      "pressure": 740,
+      "winddirection": "З",
+      "windspeed": 1.6
+    },
+    {
+      "date": "14 ноября",
+      "temperature": 0.3,
+      "precipitation": 1.8,
+      "pressure": 743,
+      "winddirection": "СЗ",
+      "windspeed": 3.7
+    },
+    {
+      "date": "15 ноября",
+      "temperature": 0.2,
+      "precipitation": 0,
+      "pressure": 741,
+      "winddirection": "З",
+      "windspeed": 2.7
+    },
+    {
+      "date": "16 ноября",
+      "temperature": 1.6,
+      "precipitation": 0,
+      "pressure": 740,
+      "winddirection": "СЗ",
+      "windspeed": 3.9
+    },
+    {
+      "date": "17 ноября",
+      "temperature": 2.1,
+      "precipitation": 5.8,
+      "pressure": 741,
+      "winddirection": "СЗ",
+      "windspeed": 4
+    },
+    {
+      "date": "18 ноября",
+      "temperature": 3.7,
+      "precipitation": 6.8,
+      "pressure": 740,
+      "winddirection": "С",
+      "windspeed": 4
+    },
+    {
+      "date": "19 ноября",
+      "temperature": 0.5,
+      "precipitation": 6.3,
+      "pressure": 740,
+      "winddirection": "С",
+      "windspeed": 6.8
+    },
+    {
+      "date": "20 ноября",
+      "temperature": -3.3,
+      "precipitation": 0,
+      "pressure": 741,
+      "winddirection": "В",
+      "windspeed": 6.2
+    },
+    {
+      "date": "21 ноября",
+      "temperature": -5.4,
+      "precipitation": 0,
+      "pressure": 743,
+      "winddirection": "СВ",
+      "windspeed": 8.3
+    },
+    {
+      "date": "22 ноября",
+      "temperature": -8.5,
+      "precipitation": 0,
+      "pressure": 748,
+      "winddirection": "В",
+      "windspeed": 8.2
+    },
+    {
+      "date": "23 ноября",
+      "temperature": -4.5,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "ЮВ",
+      "windspeed": 9.3
+    },
+    {
+      "date": "24 ноября",
+      "temperature": -4.8,
+      "precipitation": 0,
+      "pressure": 748,
+      "winddirection": "ЮЗ",
+      "windspeed": 6.4
+    },
+    {
+      "date": "25 ноября",
+      "temperature": -1.6,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "ЮВ",
+      "windspeed": 8.4
+    },
+    {
+      "date": "26 ноября",
+      "temperature": 2.1,
+      "precipitation": 0,
+      "pressure": 742,
+      "winddirection": "Ю",
+      "windspeed": 7.6
+    },
+    {
+      "date": "27 ноября",
+      "temperature": 2.3,
+      "precipitation": 0,
+      "pressure": 747,
+      "winddirection": "ЮЗ",
+      "windspeed": 9.6
+    },
+    {
+      "date": "28 ноября",
+      "temperature": -1.8,
+      "precipitation": 3.1,
+      "pressure": 748,
+      "winddirection": "Ю",
+      "windspeed": 7.3
+    },
+    {
+      "date": "29 ноября",
+      "temperature": -10.6,
+      "precipitation": 0,
+      "pressure": 746,
+      "winddirection": "ЮВ",
+      "windspeed": 7.8
+    },
+    {
+      "date": "30 ноября",
+      "temperature": -9.8,
+      "precipitation": 0.2,
+      "pressure": 745,
+      "winddirection": "ЮВ",
+      "windspeed": 9.6
+    },
+    {
+      "date": "1 декабря",
+      "temperature": -4.4,
+      "precipitation": 0.7,
+      "pressure": 743,
+      "winddirection": "В",
+      "windspeed": 8.1
+    },
+    {
+      "date": "2 декабря",
+      "temperature": -1.7,
+      "precipitation": 0,
+      "pressure": 742,
+      "winddirection": "В",
+      "windspeed": 9.1
+    },
+    {
+      "date": "3 декабря",
+      "temperature": -8.1,
+      "precipitation": 0.2,
+      "pressure": 743,
+      "winddirection": "ЮВ",
+      "windspeed": 8.5
+    },
+    {
+      "date": "4 декабря",
+      "temperature": -11.3,
+      "precipitation": 0.3,
+      "pressure": 746,
+      "winddirection": "Ю",
+      "windspeed": 7.5
+    },
+    {
+      "date": "5 декабря",
+      "temperature": -16.4,
+      "precipitation": 0,
+      "pressure": 749,
+      "winddirection": "Ю",
+      "windspeed": 6.4
+    },
+    {
+      "date": "6 декабря",
+      "temperature": -9.4,
+      "precipitation": 0.8,
+      "pressure": 748,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.3
+    },
+    {
+      "date": "7 декабря",
+      "temperature": -3.9,
+      "precipitation": 0,
+      "pressure": 745,
+      "winddirection": "З",
+      "windspeed": 8.2
+    },
+    {
+      "date": "8 декабря",
+      "temperature": -5.2,
+      "precipitation": 0,
+      "pressure": 746,
+      "winddirection": "Ю",
+      "windspeed": 9
+    },
+    {
+      "date": "9 декабря",
+      "temperature": -6.9,
+      "precipitation": 0,
+      "pressure": 743,
+      "winddirection": "ЮВ",
+      "windspeed": 9.4
+    },
+    {
+      "date": "10 декабря",
+      "temperature": -5.5,
+      "precipitation": 0.2,
+      "pressure": 742,
+      "winddirection": "Ю",
+      "windspeed": 8.3
+    },
+    {
+      "date": "11 декабря",
+      "temperature": -4.4,
+      "precipitation": 0.3,
+      "pressure": 745,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.5
+    },
+    {
+      "date": "12 декабря",
+      "temperature": -4.2,
+      "precipitation": 0,
+      "pressure": 742,
+      "winddirection": "З",
+      "windspeed": 7.7
+    },
+    {
+      "date": "13 декабря",
+      "temperature": -4.4,
+      "precipitation": 0,
+      "pressure": 740,
+      "winddirection": "ЮЗ",
+      "windspeed": 7.1
+    },
+    {
+      "date": "14 декабря",
+      "temperature": -4.7,
+      "precipitation": 0.7,
+      "pressure": 745,
+      "winddirection": "З",
+      "windspeed": 7.3
+    },
+    {
+      "date": "15 декабря",
+      "temperature": -8.2,
+      "precipitation": 2.6,
+      "pressure": 742,
+      "winddirection": "ЮЗ",
+      "windspeed": 6.3
+    },
+    {
+      "date": "16 декабря",
+      "temperature": -11.4,
+      "precipitation": 0.4,
+      "pressure": 740,
+      "winddirection": "Ю",
+      "windspeed": 8.4
+    },
+    {
+      "date": "17 декабря",
+      "temperature": -3.4,
+      "precipitation": 3.9,
+      "pressure": 743,
+      "winddirection": "ЮВ",
+      "windspeed": 9.8
+    },
+    {
+      "date": "18 декабря",
+      "temperature": -4,
+      "precipitation": 0.4,
+      "pressure": 745,
+      "winddirection": "ЮВ",
+      "windspeed": 7.5
+    },
+    {
+      "date": "19 декабря",
+      "temperature": -11.1,
+      "precipitation": 0.3,
+      "pressure": 754,
+      "winddirection": "Ю",
+      "windspeed": 8.4
+    },
+    {
+      "date": "20 декабря",
+      "temperature": -15.8,
+      "precipitation": 3.4,
+      "pressure": 762,
+      "winddirection": "З",
+      "windspeed": 8.2
+    },
+    {
+      "date": "21 декабря",
+      "temperature": -7.6,
+      "precipitation": 1.3,
+      "pressure": 759,
+      "winddirection": "ЮЗ",
+      "windspeed": 9.5
+    },
+    {
+      "date": "22 декабря",
+      "temperature": -10.6,
+      "precipitation": 0.6,
+      "pressure": 747,
+      "winddirection": "З",
+      "windspeed": 8.7
+    },
+    {
+      "date": "23 декабря",
+      "temperature": -14.9,
+      "precipitation": 0,
+      "pressure": 745,
+      "winddirection": "ЮЗ",
+      "windspeed": 9.8
+    },
+    {
+      "date": "24 декабря",
+      "temperature": -9.2,
+      "precipitation": 13.7,
+      "pressure": 744,
+      "winddirection": "ЮЗ",
+      "windspeed": 8.6
+    },
+    {
+      "date": "25 декабря",
+      "temperature": -13.9,
+      "precipitation": 0.4,
+      "pressure": 748,
+      "winddirection": "ЮЗ",
+      "windspeed": 9.5
+    },
+    {
+      "date": "26 декабря",
+      "temperature": -13.4,
+      "precipitation": 5.6,
+      "pressure": 746,
+      "winddirection": "СЗ",
+      "windspeed": 8.1
+    },
+    {
+      "date": "27 декабря",
+      "temperature": -13.8,
+      "precipitation": 0.8,
+      "pressure": 744,
+      "winddirection": "З",
+      "windspeed": 8.3
+    },
+    {
+      "date": "28 декабря",
+      "temperature": -18.5,
+      "precipitation": 0,
+      "pressure": 744,
+      "winddirection": "С",
+      "windspeed": 9.3
+    },
+    {
+      "date": "29 декабря",
+      "temperature": -15.8,
+      "precipitation": 0.2,
+      "pressure": 741,
+      "winddirection": "С",
+      "windspeed": 7.3
+    },
+    {
+      "date": "30 декабря",
+      "temperature": -16.4,
+      "precipitation": 0,
+      "pressure": 740,
+      "winddirection": "СВ",
+      "windspeed": 6.4
+    },
+    {
+      "date": "31 декабря",
+      "temperature": -16.2,
+      "precipitation": 0,
+      "pressure": 742,
+      "winddirection": "ЮВ",
+      "windspeed": 5.2
+    }
+  ]
+}

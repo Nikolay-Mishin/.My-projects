@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>forma_dz_1</title>
+
+    <link rel="stylesheet" href="css/forma_dz_1.css">
+</head>
+
+<body>
+    <div class="center-item">
+        <div>
+            <label class="_label">Форма отзыва</label>
+        </div>
+        <form action="" method="post">
+            <fieldset><legend>Личные данные</legend>
+                <div class="form-row">
+                    <label>ID отзыва</label>
+                    <div class="form-item">
+                        <input type="text" name="text_input" value="12345" disabled>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>Имя путешественника</label>
+                    <div class="form-item">
+                        <input type="text" name="text_input" value="Кекс">
+                    </div>
+                </div>
+            </fieldset>
+            
+            <fieldset><legend>Отзыв о поездке</legend>
+                <div class="form-row">
+                    <label>Страна визита</label>
+                    <div class="form-item">
+                        <input type="text" name="country" value="Норвегия">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>Город</label>
+                    <div class="form-item" name="city">
+                        <select>
+                            <option>Осло</option>
+                            <option>Коппенгаген</option>
+                            <option>Париж</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>Оценка поездки</label>
+                    <div class="form-item range" name="rate">
+                        <input type="range" value="100">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item" name="number">
+                        <input class="number" type="text" value="10">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>Текст отзыва</label>
+                    <div class="form-item" name="rate">
+                        <textarea rows="5">Это было просто мяу!</textarea>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

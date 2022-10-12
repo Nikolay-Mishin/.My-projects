@@ -1,0 +1,120 @@
+/* ...................................... 
+    
+    	NAVIGATION
+    
+...................................... */
+
+.navigation {
+	.bg(@bg_nav);
+
+	color: @color;
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	
+	@media (min-width: 992px) {
+		.bg(@bg_nav);
+		position: relative;
+		padding-top: 23px;
+		padding-bottom: 23px;
+	}
+	
+	a {
+		display: block;
+
+		padding-top: 22px;
+		padding-bottom: 22px;
+		padding-left: 15px;
+		padding-right: 15px;
+
+		color: @color;
+		text-decoration: none;
+		
+		@media (min-width: 992px) {
+			display: inline;
+			padding: 0;
+		}
+
+		&:hover, &.active { color: @bg_nav-hover; }
+	}
+	
+	ul {
+		.bg(@bg_nav-ul);
+
+		display: none;
+		margin: 0;
+		padding: 0;
+
+		list-style-type: none;
+		justify-content: space-between;
+		
+		@media (min-width: 992px){
+			background-color: transparent;
+			display: flex;
+		}
+	}
+
+	li {
+		margin: 0;
+		padding: 0;
+		border-bottom: 1px solid @border_nav-li;
+
+		@media (min-width: 992px) {
+			border-bottom: none;
+			padding: 0;
+		}
+		&.active { color: @color_nav; }
+	}
+}
+
+.navigation__toggle-button {
+	.bg(@bg_nav-toggle_btn);
+	
+	padding-top: 23px;
+	padding-bottom: 23px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	display: block;
+	position: relative;
+	cursor: pointer;
+	
+	&:focus, &:active { .bg(@bg_nav-toggle_btn-act); }
+
+	&:before {
+		content: "";
+
+		.bg-toggle_button;
+
+		position: absolute;
+		top: 23px;
+		right: 15px;
+		width: 25px;
+		height: 20px;
+	}
+	
+	@media (min-width: 992px) { display: none; }
+}
+
+.navigation__toggle-button--active { .bg(@bg_nav-toggle_btn-act); }
+
+.container--mobile--no-padding {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	
+	@media (min-width: 992px){
+		width: 970px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	@media (min-width: 1170px) { width: 1170px; }
+}

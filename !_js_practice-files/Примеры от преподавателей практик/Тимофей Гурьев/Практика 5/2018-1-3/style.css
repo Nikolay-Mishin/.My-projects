@@ -1,0 +1,6 @@
+[data-sort='asc']::after {
+    content: "↑";
+}
+[data-sort='desc']::after {
+    content: "↓";
+}

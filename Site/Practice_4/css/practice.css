@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+li::before {font-family: FontAwesome; font-size: 20px; margin-right: 10px;}
+li::before {content: "\f13b";}
+
+/* transition - линейное изменение элемента от точки к точке 
+* объект изменения
+* время за которое произсходит
+* модель изменения
+* задержка
+*/
+.social {
+	background-color: #000;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 85px;
+	border-radius: 50%;
+	transition: background-color 0.3s ease-in-out 0s;
+}
+
+.social i {
+	color: #fff;
+	font-size: 30px;
+}
+.social:hover {background-color: #eee;}
+.social i:hover {background-color: #000;}

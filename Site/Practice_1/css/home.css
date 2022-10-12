@@ -1,0 +1,39 @@
+/* CSS Document */
+
+/*
+font-family: 'Bad Script', cursive;
+font-family: 'Cormorant Infant', serif;
+font-family: 'PT Sans Caption', sans-serif; 400,700
+font-family: 'Ubuntu Condensed', sans-serif; 300i,400,600,700
+*/
+
+/* .underline */
+a:link {color: darkorchid;}
+a:visited {color: grey;}
+a:hover {color: green;}
+a:active {color: black;}
+
+.active:link {
+    color: black;
+    text-decoration: none;
+}
+
+.clicked:link {
+    color: red;
+    text-decoration: none;
+    border-style: none;
+}
+
+.img {
+    border: 3px solid darkorchid;
+    width: 100px;
+}
+
+.active img {
+    border: none;
+    width: 100px;
+}
+
+.img-big {width: 300px;}
+.font-2 {font-weight: 700;}
+.list-main {list-style: decimal;}

@@ -1,0 +1,26 @@
+.rounded (@radius: 10px, @padding: 20px) {
+	-webkit-border-radius: @radius;
+	        border-radius: @radius;
+    padding: @padding;
+}
+
+.bg (@bg: @bg) {
+    background-color: @bg;
+}
+
+.bg-toggle_button (@bg_url: @bg_url, @bg_repeat: @bg_repeat, @bg_pos: @bg_pos) {
+    background: @bg_url;
+    background-repeat: @bg_repeat;
+    background-position: @bg_pos;
+}
+
+.bg-img (@bg_img: @bg_img, @bg_repeat: @bg_repeat, @bg_pos: @bg_pos, @bg_size: @bg_size) {
+    background-image: @bg_img;
+	background-repeat: @bg_repeat;
+	background-position: @bg_pos;
+	background-size: @bg_size;
+}
+
+.shadow (@shadow: #688ab3) {
+	box-shadow: 0px 3px 25px 0px @shadow;
+}

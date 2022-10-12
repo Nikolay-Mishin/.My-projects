@@ -1,0 +1,215 @@
+
+*{box-sizing: border-box;}
+
+body {margin: 0; background-color: #f6ecd2; font-family: 'Oxygen', sans-serif;}
+.container {
+	display: block;
+	position: relative;
+	width: 650px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;	
+	padding: 30px 0;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.22);
+	overflow: hidden;
+}
+
+.clear {
+	content: "";
+	clear: both;
+}
+
+/* --------------------- ЛЕВАЯ ЧАСТЬ ФОРМЫ - СЛАЙДЕР -------------------------*/
+.slader {
+	display: block;
+	width: 325px; 
+	float: left;
+	padding: 15px;
+}
+
+.slader img {
+width: 100%;
+height: 100%;
+}
+
+.photo {
+	width: 50px;
+	height: 50px;
+	margin: 30px auto;
+	overflow: hidden;
+	border-radius: 50%;
+  }
+  
+  .personPhoto {
+	width: auto;
+	height: 100%;
+	margin: 0 auto;
+  }
+
+  .comment-header {
+	  text-transform: uppercase;
+	  text-align: center;
+	  font-size: 1.2em;
+  }
+
+  .comment-text {
+	  font-size: 15px;
+	  letter-spacing: 1px;
+	  text-align: center;
+	  color: #2e2f42;
+	}
+
+/*btn slader*/
+.slider-circle {text-align: center;}
+	span {
+		display: inline-block;
+		height: 50px;
+		font-size: 20px;
+		margin-top: -10px;
+	  }
+	  
+	  .ul-color li {
+		list-style: none;
+		float: left;
+		margin-right: 20px;
+	  }
+	  
+	  .ul-color li a {
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+		border-radius: 100%;
+	  }
+	  
+	  .ul-color li a.orange {
+		background: #f35e3d;
+		border: 1px solid #f35e3d;
+	  }
+
+	  .ul-color li a.green {
+		background: #fff;
+		border: 1px solid #f35e3d;
+	  }
+	  
+	  .ul-color li a.yellow {
+		background: #fff;
+		border: 1px solid #f35e3d;
+	  }
+	  
+	  .ul-color li a.active:after {
+		position: absolute;
+		content: '';
+		display: inline-block;
+		border: 1px solid #f35e3d;
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		margin-left: -10px;
+		margin-top: -5px;
+	  }
+	  
+/* --------------------- // ЛЕВАЯ ЧАСТЬ ФОРМЫ - СЛАЙДЕР -------------------------*/
+
+
+/* --------------------- ПРАВАЯ ЧАСТЬ ФОРМЫ - SIGNUP -------------------------*/
+.form-style{
+	display: block;
+	position: relative;
+	width: 325px; 
+	float: left;
+	padding: 30px;
+}
+.form-style h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+}
+
+.form-style input[type="email"],
+.form-style input[type="url"],
+.form-style input[type="password"],
+.form-style textarea,
+.form-style select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #eaeaea;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+	transform: 0.2s ease-in-out;
+}
+.form-style textarea{
+	resize:none;
+	overflow: hidden;
+}
+
+.checkbox-click {margin-top: 20px;}
+.form-style:hover {
+	border-left :1px solid #eaeaea;
+}
+
+
+/*button*/
+.btn,
+input[type="? "]{
+	background: #ef7550;
+	color: #fff;
+	border: none;
+	padding: 10px 25px;
+	margin-top: 30px;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+	display:block;
+	border-radius: 30px;
+	box-shadow: 0 2px 7px 1px rgba(239, 117, 80, 0.65);
+	transform: 0.2s ease-in-out;
+}
+
+.btn:hover,
+input[type="?"]:hover{
+	box-shadow: none;
+}
+/* button */
+
+.btn-close{
+	position: absolute; 
+	top: 0;
+	right: 0;
+	margin-top: -15px;
+	margin-right: 15px;
+	width: 2em;
+	height: 2em;
+	text-align: center;
+	border: 1px solid #eaeaea;
+	border-radius: 50%;
+	color: #2e2f42;
+	background: #fff;
+	/*внешние свечение*/ 
+	box-sizing:border-box;
+	transform: 0.2s ease-in-out
+}
+
+.btn-close:hover {background-color: #ef7550; color: #fff;}
+/* --------------------- // ПРАВАЯ ЧАСТЬ ФОРМЫ - SIGNUP -------------------------*/
+
+/* Smartphones (горизонтальная) ----------- */
+@media only screen and (max-width: 321px) {
+	.slader, .form-style {float: none;}
+	.form-style:hover {border-top :1px solid #eaeaea;}
+	.btn-close {margin-top: -345px;}
+	.container {width: 300px; padding:0; margin-bottom: 40px; }
+	.slader, .form-style {width: 100%;}
+	.btn {margin-left: auto; margin-right: auto;}
+	}

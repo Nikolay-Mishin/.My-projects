@@ -1,0 +1,3 @@
+[2017-06-06 15:19:45] layer "project_organica.jpg": Duplicate path: project_organica.jpg
+[2017-06-06 15:19:45] layer "user-avatar-placeholder-small.jpg": Duplicate path: user-avatar-placeholder-small.jpg
+[2017-06-06 15:19:45] layer "photo-small.jpg": Duplicate path: photo-small.jpg

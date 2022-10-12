@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Практика 5</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Наши файлы -->
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <script src="data.js"></script>
+  <script src="application.js"></script>
+</head>
+<body>
+
+<!-- Ярлыки вкладок -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Студенты</a>
+    </div>
+    <div class="navbar-collapse">
+      <ul class="nav navbar-nav" data-tab-links>
+        <li><a href="#stats">Статистика</a></li>
+        <li><a href="#groups">Группы</a></li>
+        <li><a href="#students">Студенты</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Собственно вкладки -->
+<div class="container" data-tab id="stats">
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Группы</h3>
+      <p><span id="gr-qnt">6</span> групп</p>
+      <p><a href="#groups">Список групп</a></p>
+    </div>
+    <div class="col-md-4">
+      <h3>Студенты</h3>
+      <p>Общее количество: <span id="st-all">100</span> человек.</p>
+      <p>Мужчин: <span id="st-m">100</span> человек.</p>
+      <p>Женщин: <span id="st-f">100</span> человек.</p>
+      <p><a href="#students">Список студентов</a></p>
+    </div>
+    <div class="col-md-4">
+      <h3>Состав групп</h3>
+      <p>Среднее количество: <span id="gr-av">100</span> человек.</p>
+      <p>Средний возраст: <span id="age-av">100</span> год.</p>
+      <p>В среднем мужчин: <span id="gr-m">100</span> человек.</p>
+      <p>В среднем женщин: <span id="gr-f">100</span> человек.</p>
+    </div>
+  </div>
+</div>
+<div class="container" data-tab id="groups">
+
+</div>
+<div class="container" data-tab id="students">
+  <a href="#add">Добавить студента</a>
+  <div id="groups-buttons"></div>
+  <table id="people" class="table">
+    <thead>
+    <tr>
+      <th data-key="last">Фамилия</th>
+      <th data-key="first">Имя</th>
+      <th data-key="group">Группа</th>
+      <th data-key="age">Возраст</th>
+      <th data-key="gender">Пол</th>
+      <th>Управление</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+</div>
+<div class="container" data-tab id="add">
+  Добавление студента
+</div>
+</body>
+</html>

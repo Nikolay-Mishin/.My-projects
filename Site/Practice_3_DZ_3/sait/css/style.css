@@ -1,0 +1,147 @@
+* {box-sizing: border-box;}
+body {margin: 0; padding: 0; font-size: 1.2vw;}
+
+.simbol::before {content: '\00AB';}
+.simbol::after {content: '\00BB';}
+
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+	font-family: san-serif;
+}
+
+.main {
+	background-color: rgb(255, 255, 255);
+	border-right: 1px solid rgb(79, 140, 255);
+	border-bottom: 1px solid rgb(79, 140, 255);
+}
+.main h3 {
+	margin: 0;
+}
+
+.line {display: inline-block;}
+
+.title {color: rgb(22, 119, 199);}
+.bg {background-color: rgb(168, 168, 168);}
+.bolt {font-weight: 700;}
+
+/* ------ HEADER ------ */
+
+header {
+	background-color: rgb(53, 155, 252);
+	height: 100px;
+	max-height: 15%;
+}
+
+/* -- logo -- */
+
+.logo {float: left; left: 10%; width: 15%; border: 2px solid white; padding: 5px;}
+img {width: 100%;}
+
+/* -- nav -- */
+
+nav {float: right;}
+.nav {bottom: 10%;}
+ul {list-style: none; margin: 0;}
+li {display: inline-block; margin-right: 20px;}
+a {
+	color: rgb(236, 236, 236); 
+	text-decoration: none;
+	display: block;
+	font-weight: 500;
+}
+
+/* ------ LEFT SECTION ------ */
+
+.left_sec {
+	float: left;
+	width: 15%;
+	padding: 10px;
+}
+.left_sec::before {float: left; content: url(../img/dw.png); padding-right: 10px; }
+
+.left_sec ul {padding: 0;}
+.left_sec li {display: block;}
+.left_sec li a {display: block; padding: 6px 0; color: #444;}
+.left_sec h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.8em;
+	padding-left: 15px;
+}
+
+/* ------ ASIDE ------ */
+
+aside {
+	float: right; 
+	width: 20%;
+	padding: 10px;
+}
+
+aside ul {padding: 0;}
+aside li {display: block;}
+aside li a {display: block; padding: 6px 0; color: #444;}
+aside li a:hover {color: #f16529;}
+aside h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.8em;
+	padding-left: 15px;
+}
+
+li a:hover {background-color: rgb(168, 168, 168); text-decoration: underline; color: #f16529;}
+li a:hover::before {float:left; font-family: FontAwesome; content: '\f061';}
+
+/* ------ MAIN ------ */
+
+main {
+	max-width: 65%;
+	padding: 10px;
+	border-left: 0.5px solid rgb(79, 140, 255);
+}
+
+.book {
+	max-height: 500px;
+	/*border: 1px solid rgb(0, 0, 0);*/
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.book img {width: 100%;}
+
+.img {
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin-left: 10px;
+}
+.book_1 {
+	background-size: contain;
+	background-position: top center;
+}
+.book_2 {
+	background-size: contain;
+	background-position: top center;
+}
+.book_3 {
+	background-size: contain;
+	background-position: top center;
+}
+
+.content {
+	float: right;
+	max-width: 75%;
+}
+
+.author {color: rgb(168, 168, 168); margin: 0;}
+
+/* ------ FOOTER ------ */
+
+footer {
+	background-color: rgb(255, 255, 255);
+	height: 40px;
+}
+footer a {color: black; }
+
+/* ------ очистка обтекания ------ */
+
+.clearfix::after, .clearfix::before {content: ''; display: block; clear: both;}

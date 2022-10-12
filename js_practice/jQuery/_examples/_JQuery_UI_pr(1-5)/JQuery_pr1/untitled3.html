@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<link rel="stylesheet" href="main3.js">
+</head>
+<body>
+	
+<!--<input type="number" name="a">
+<select name="operation">
+    <option value="+">Сложение</option>
+    <option value="-">Вычитание</option>
+    <option value="*">Умножение</option>
+    <option value="/">Деление</option>
+</select>
+<input type="number" name="b"><br>
+	
+<button class="btn">Вычислить</button>
+	
+<div class="sum"></div>-->
+
+
+
+<input type="number" name="a">
+	<select name="op">
+    <option value="+">Сложение</option>
+    <option value="-">Вычитание</option>
+    <option value="*">Умножение</option>
+    <option value="/">Деление</option>
+	</select>
+<input type="number" name="b"><br>
+	<button>Вычислить</button>
+	<div class="slider"></div>
+<div class="output"></div>
+	
+	
+	
+	
+	<script>
+//	
+	$(() => { // function main() {}
+		function summator () {
+//			const a = Number($('[name=a]').val());
+//			const b = Number($('[name=b]').val());
+//			const op = Number($('[name=op]').val());
+//				
+//				let res;
+//				if (op==='+'){res = a+b;}
+//				else if (op==='-') {res = a-b;}
+//				else if (op==='/') {res = a/b;}
+//				else if (op==='*') {res = a*b;}
+//				else if (op==='+') {res = a+b;}
+//				else throw Error ('operation is undefined');
+//				
+//				switch (op) {
+//					case '+': res = a + b; break;
+//					case '-': res = a - b; break;
+//						  }
+//				
+//		
+//				
+//				//тернарный оператор
+//		let res = (op==='+')? a + b:
+//		(op==='-')? a - b:
+//		(op==='/')? a / b:
+//		(op==='*')? a * b:
+//		throw Error ('operation is undefined');
+				
+				
+				const operation ={
+					    '+':function(a, b) {return a+b;},
+					//'+':(a,b) => a+b},
+						'-':function(a, b) {return a-b},
+						'*':function(a, b) {return a*b},
+						'/':function(a, b) {return a/b},
+				};
+			//if (!op in operation)
+			//	throw Error ('operation is undefined');
+			// или проверка ассерта
+			console.assert(op in operation);
+		
+				
+				
+			$('.output').text(res);
+		}
+		$('button').on('click', summator);
+		$('name=a').on('change', cacl);
+		$('name=op').on('change', cacl);
+		$('name=b').on('change', cacl);
+		
+		
+		//input, cut, copy, paste, change
+		//$('name=a').on('change', cacl);
+		//$('name=op').on('change', cacl);
+		//$('name=b').on('change', cacl);
+		// keypresed, keydown - пока нажата кномка, keyout - отжимание кнопки все эти событтия лучше не использовать
+		// $('name=b').on('change input cut paste copy', cacl);
+		});
+		
+		
+	</script>
+	
+	
+</body>
+</html>

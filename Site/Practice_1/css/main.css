@@ -1,0 +1,27 @@
+/* CSS Document */
+
+/*
+font-family: 'Bad Script', cursive;
+font-family: 'Cormorant Infant', serif;
+font-family: 'PT Sans Caption', sans-serif; 400,700
+font-family: 'Ubuntu Condensed', sans-serif; 300i,400,600,700
+*/
+
+h1 {color: red}
+h2 {color: aqua}
+h2:hover {color: gray}
+a {font-size: 30px; text-decoration: none; background-color: antiquewhite}
+a:hover {color: green}
+div {background-color: chartreuse; width: 500px; height: 500px; border: #F33033 4px solid; padding: 30px}
+
+.h-lorem {color: aquamarine; font-size: 20px}
+.p-lorem {color: green; font-size: 20px; font-family: 'Bad Script', cursive}
+.lorem-font {font-size: 20px; color: blue; font-family: 'Ubuntu Condensed', sans-serif; font-weight: 300; font-style: italic}
+
+#main span {color: red}
+
+.img-lorem {width: 30%; height: 30%}
+
+.style-2 {
+    font-style: italic;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+
+<script src="jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const ul = document.createElement('ul');
+
+  const li1 = document.createElement('li');
+  li1.textContent = 'Апельсин';
+  const li2 = document.createElement('li');
+  li2.textContent = 'Яблоко';
+  const li3 = document.createElement('li');
+  li3.textContent = 'Груша';
+
+  ul.appendChild(li1);
+  ul.appendChild(li2);
+  ul.appendChild(li3);
+
+  const body = document.getElementsByTagName('body')[0];
+  body.appendChild(ul);
+});
+
+</script>
+</body>
+</html>

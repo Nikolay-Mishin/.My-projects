@@ -1,0 +1,37 @@
+/* ...................................... 
+    
+			SNIPPETS
+    
+   ...................................... */
+
+/* ------ очистка обтекания ------ */
+
+._clear-fix::after, ._clear-fix::before {content: ''; display: block; clear: both;}
+
+._rel {position: relative;}
+._abs {position: absolute;}
+
+._top {
+    top: 0;
+}
+._bottom {
+    bottom: 0;
+}
+._left {
+    left: 0;
+}
+._right {
+    right: 0;
+}
+
+._center {
+    top: 50%; left: 50%; margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+._center_x {
+    left: 50%; margin-right: -50%; transform: translate(-50%, 0);
+}
+._center_y {
+    top: 50%; transform: translate(0, -50%);
+}

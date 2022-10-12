@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        .sort-by > th { cursor: pointer; }
+        .sort-by > .forward { color: red; }
+        .sort-by > .reverse { color: blue; }
+    </style>
+</head>
+<body>
+
+<header></header>
+<main class="container">
+    <h1>Практика 3. 2b</h1>
+    <p>Список групп как навигация.</p>
+    <p><button onclick="test()">Пуск!</button></p>
+
+    <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+            <li class="active" onclick="filterBy('', this)"><a href="#">All groups</a></li>
+        </ul>
+        <ul id="groups" class="nav navbar-nav"></ul>
+    </nav>
+
+    <table class="table">
+        <thead>
+            <tr class="sort-by">
+                <th onclick="showTable(compareLastName, this)"  >фамилия</th>
+                <th onclick="showTable(compareFirstName, this)" >имя</th>
+                <th onclick="showTable(compareGroup, this)"     >группа</th>
+                <th onclick="showTable(compareAge, this)"       >возраст</th>
+                <th onclick="showTable(compareGender, this)"    >пол</th>
+            </tr>
+        </thead>
+        <tbody id="students"></tbody>
+    </table>
+</main>
+<footer></footer>
+
+<script src="../data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

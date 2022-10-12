@@ -1,0 +1,60 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<style>
+  #out { background-color: gold; }
+</style>
+
+<form id="form">
+  <input type="text" name="fio"><br>
+  <input type="radio" name="gender" value="m">М<br>
+  <input type="radio" name="gender" value="f">Ж<br>
+  <select name="class">
+    <option value="1">VIP</option>
+    <option value="2">Бизнес</option>
+    <option value="3">Эконом</option>
+  </select>
+  <br>
+  <textarea name="description"></textarea>
+  <br>
+  <input type="submit" value="OK" onclick="return false">
+</form>
+
+<script>
+$(() => {
+  $('input[type=submit]').on('click', function() {
+    console.log($('form > [name=fio]').val());
+    console.log($('form > [name=gender]').val());
+    console.log($('form > [name=class]').val());
+    console.log($('form > [name=description]').val());
+  });
+
+
+  jQuery - $
+
+  $( ... )
+     '<li>'
+     '.active'
+     document
+     function() {}
+
+  $el = $(...)
+
+  $el
+    .text()
+    .html()
+    .append()
+    .attr()
+    .prop()
+    .css()
+    .val()
+    .on()
+
+});
+</script>
+</body>
+</html>

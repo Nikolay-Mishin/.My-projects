@@ -1,0 +1,1 @@
+:active,:focus,:hover,input,select,textarea{outline:0;outline-offset:0;border:none}body,html{height:100%;min-width:320px}html{font-size:10px;line-height:1.4}body{font-size:1.6rem;font-family:'Noto Sans'}.main_link{margin-top:50px;text-align:center}input[type=submit]:hover,p[onclick]:hover{cursor:pointer}input:not([type=submit]){padding:5px;border:1px solid #00f}

@@ -1,0 +1,114 @@
+/* ...................................... 
+    
+    	TOP-SLIDER-THEME
+    
+...................................... */
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.top-slider-theme .owl-controls {
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.top-slider-theme .owl-controls .owl-buttons div {
+	display: none;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+                    border-radius: 50%;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 10;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    color: #278f7f;
+
+    @media (min-width: 768px) { display: block; }
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+/*
+.top-slider-theme .owl-controls.clickable .owl-buttons div:hover {
+
+}
+*/
+.owl-prev {
+    @media (min-width: 768px) { left: -14px; }
+    @media (min-width: 1027px) { left: -45px; top: 108px; }
+}
+
+.owl-next {
+    @media (min-width: 768px) { right: -14px; }
+    @media (min-width: 1027px) { right: -45px; top: 119px; }
+}
+
+/* Styling Pagination*/
+
+.owl-pagination {
+	position: absolute;
+	bottom: -62px;
+	width: 100%;
+	
+	@media (min-width: 992px) { display: none; }
+}
+
+.top-slider-theme .owl-controls .owl-page {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.top-slider-theme .owl-controls .owl-page span {
+	display: block;
+	width: 12px;
+	height: 12px;
+    margin: 0;
+    padding: 0;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #fff;
+}
+
+.top-slider-theme .owl-controls .owl-page.active span,
+.top-slider-theme .owl-controls.clickable .owl-page:hover span {
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.top-slider-theme .owl-controls .owl-page span.owl-numbers {
+	height: auto;
+	width: auto;
+	color: #FFF;
+    margin: 0;
+    padding: 0;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading {
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}

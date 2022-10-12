@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href=" http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+
+<div class="elements"></div>
+<div id="dialog" title="Element"></div>
+
+<script src="http://mxn42.ru/avalon/data/elements.js"></script>
+<script>
+$(() => {
+
+ function showDialog(name) {
+    const element = elements.find(el => el.name === name);
+    $('#dialog')
+      .html(`
+        <h1><b>${element.symbol}</b> ${element.name}</h1>
+        <p>${element.summary}</p>
+      `)
+      .dialog({modal: true});
+  }
+
+  const $elements = $('.elements');
+  for (const elem of elements) {
+    const $el = $('<span>')
+      .text(elem.name)
+      .attr('title', elem.summary)
+      .on('click', () => showDialog(elem.name));
+    $elements
+      .append($el)
+      .append(' ');
+  }
+  $elements.tooltip();
+
+});
+</script>
+
+</body>
+</html>

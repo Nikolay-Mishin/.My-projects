@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблицы</title>
+</head>
+<body>
+
+<h1>Таблицы</h1>
+
+<h2>Простая таблица</h2>
+
+<table border="1" width="400">
+    <tr bgcolor="#00BFFF">
+        <td></td>
+        <th>Продано в понедельник</th>
+        <th>Продано во вторник</th>
+    </tr>
+    <tr>
+        <th bgcolor="#00BFFF">Яблоки</th>
+        <td align="right" valign="bottom"><b>2 кг</b></td>
+        <td align="center" valign="top"><em>3 кг</em></td>
+    </tr>
+    <tr>
+        <th bgcolor="#00BFFF">Груши</th>
+        <td>3 кг</td>
+        <td>6 кг</td>
+    </tr>
+    <tr>
+        <th bgcolor="#00BFFF">Персики</th>
+        <td>8 кг</td>
+        <td>9 кг</td>
+    </tr>
+</table>
+
+
+
+<h2>Сложная таблица</h2>
+
+<table border="1" width="400">
+    <tr bgcolor="#F0E68C">
+        <td></td>
+        <th>Продано в понедельник</th>
+        <th>Продано во вторник</th>
+        <th>Продано в среду</th>
+    </tr>
+    <tr>
+        <th bgcolor="#F0E68C">Яблоки</th>
+        <td colspan="2">2 кг</td>
+        <td rowspan="3">!!! 3 кг</td>
+    </tr>
+    <tr>
+        <th bgcolor="#F0E68C">Груши</th>
+        <td>3 кг</td>
+        <td rowspan="2">6 кг</td>
+    </tr>
+    <tr>
+        <th bgcolor="#F0E68C">Персики</th>
+        <td>8 кг</td>
+    </tr>
+</table>
+
+
+
+<h2>Семантика для таблицы</h2>
+
+<table border="1" width="400">
+    <thead bgcolor="#98FB98">
+        <tr>
+            <td></td>
+            <th>Продано в понедельник</th>
+            <th>Продано во вторник</th>
+            <th>Продано в среду</th>
+        </tr>
+    </thead>
+    <tr>
+        <th>Яблоки</th>
+        <td>2 кг</td>
+        <td>2 кг</td>
+        <td>3 кг</td>
+    </tr>
+    <tr>
+        <th>Груши</th>
+        <td>3 кг</td>
+        <td>3 кг</td>
+        <td>3 кг</td>
+    </tr>
+    <tr>
+        <th>Персики</th>
+        <td>8 кг</td>
+        <td>8 кг</td>
+        <td>8 кг</td>
+    </tr>
+    <tfoot bgcolor="#E0FFFF">
+        <tr>
+            <th>Всего</th>
+            <td>13 кг</td>
+            <td>13 кг</td>
+            <td>14 кг</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+
+
+
+</body>
+</html>

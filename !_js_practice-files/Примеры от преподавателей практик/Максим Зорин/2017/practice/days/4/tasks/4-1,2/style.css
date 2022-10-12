@@ -1,0 +1,7 @@
+.sort-by > th { cursor: pointer; }
+.sort-by > .forward { color: red; }
+.sort-by > .reverse { color: blue; }
+
+.page {
+    display: none;
+}

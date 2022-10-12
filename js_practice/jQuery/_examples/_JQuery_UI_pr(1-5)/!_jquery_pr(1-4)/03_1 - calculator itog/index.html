@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+
+  <input name="a">
+  <select name="op">
+    <option value="+" selected>+</option>
+    <option value="-">-</option>
+    <option value="/">/</option>
+    <option value="*">*</option>
+  </select>
+  <input name="b">
+  <button disabled>Вычислить</button>
+
+  <div class="output"></div>
+
+<script>
+
+$(() => {
+
+  function cacl() {
+    const a = Number($('[name=a]').val());
+    const b = Number($('[name=b]').val());
+    const op = $('[name=op]').val();
+
+    // let res;
+    // if (op === '+')  res = a + b;
+    // else if (op === '-') res = a - b;
+    // else if (op === '/') res = a / b;
+    // else if (op === '*') res = a * b;
+    // else throw Error('Operation is undefined');
+    //
+    // switch (op) {
+    //   case '+': res = a + b; break;
+    //   case '-': res = a + b; break;
+    //   case '/': res = a + b; break;
+    //   case '*': res = a + b; break;
+    //   default: throw Error('Operation is undefined'); break;
+    // }
+    //
+    // res = (op === '+')? a + b :
+    //       (op === '-')? a - b :
+    //       (op === '/')? a / b :
+    //       (op === '*')? a * b :
+    //       throw Error('Operation is undefined');
+
+    const operations = {
+      '+': function(a, b) { return a + b; },
+      '-': (a, b) => a - b,
+      '/': (a, b) => a / b,
+      '*': (a, b) => a * b,
+    };
+    console.assert(op in operations);
+    res = operations[op](a, b);
+
+    $('.output').text(res);
+  }
+
+  $('button').on('click', cacl);
+  $('[name=a]').on('change input cut copy paste', cacl);
+  $('[name=op]').on('change', cacl);
+  $('[name=b]').on('change input cut copy paste', cacl);
+
+});
+
+</script>
+
+</body>
+</html>

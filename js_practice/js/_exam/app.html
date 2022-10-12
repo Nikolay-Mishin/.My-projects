@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Экзамен по курсу</title>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <h1>Билет 3</h1>
+
+    <table border="1" id="tab-3" class="tab">
+        <tbody>
+            <tr>
+                <td>число заказов, в которых нет товаров, купленных по рекомендации</td>
+                <td id="non-recommended_value"></td>
+            </tr>
+            <tr>
+                <td>сумма заказов, сделанных, начиная с 24 июня 2015</td>
+                <td id="total_date"></td>
+            </tr>
+            <tr>
+                <td>число покупателей, сделавших заказы по рекомендациям продавца</td>
+                <td id="total_users-recommended"></td>
+            </tr>
+            <tr>
+                <td>информация о самом дорогом заказе из тех, в которых есть товары, купленные по рекомендации</td>
+                <td id="max_price-recommended"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <table border="1" id="info">
+        <thead>
+            <tr>
+                <th>№ заказа</th>
+                <th>ID покупателя</th>
+                <th>Дата</th>
+                <th>Общая сумма</th>
+                <th>Обычные продажи</th>
+                <th>Рекомендованные продажи</th>
+            </tr>
+        </thead>
+        <tbody id="content"></tbody>
+    </table>
+</body>
+
+</html>

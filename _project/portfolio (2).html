@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Портфолио</title>
+
+    <!-- jQuery Modal -->
+    <link rel="stylesheet" href="_libs/_js/jquery-modal_0.9.1/jquery.modal.min.css">
+
+    <!-- Подключаем свой .css файл -->
+    <link rel="stylesheet" href="_libs/_css/_snipets.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!--  Подключение веб-шрифтов  -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Merriweather|PT+Sans+Caption:400,700" rel="stylesheet"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main__wrapper">
+        <!-- ...................................... 
+    
+        NAVIGATION_ICON
+    
+        ...................................... -->
+    
+        <div class="img">
+            <a href="#top">
+                <img src="img/svg_nav_arrow.svg" alt="Наверх">
+            </a>
+        </div>
+
+        <!-- ...................................... 
+        
+        HEADER
+        
+        ...................................... -->
+    
+        <nav id="top" class="_rel navigation">
+            <ul class="_menu _main-menu">
+                <li>
+                    <a href="index.html" class="title-1">Портфолио &copy;</a>
+    
+                    <ul class="_menu _sub-menu">
+                        <li><a href="#">ссылка 1</a></li>
+                        <li><a href="#">ссылка 2</a></li>
+                        <li><a href="#">ссылка 3</a></li>
+                        <li><a href="#">ссылка 4</a></li>
+                        <li><a href="#">ссылка 5</a></li>
+                        <li><a href="#">ссылка 6</a></li>
+                        <li><a href="#">ссылка 7</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html" class="nav__link">О нас</a>
+                    
+                    <!-- первый уровень выпадающего списка -->
+                    <ul class="_menu _sub-menu">
+                        <li><a href="catalog.html" target="_blank">Каталог товаров</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Tutorials</a>
+                            <!-- второй уровень выпадающего списка -->
+                            <ul>
+                                <li><a href="#">Stuff</a></li>
+                                <li><a href="#">Things</a></li>
+                                <li><a href="#">Other Stuff</a></li>
+                            </ul>
+                            <!-- конец второго уровня выпадающего списка -->
+    
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="news.html" class="nav__link">Новости</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="nav__link">Портфолио</a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="nav__link">Галерея</a>
+                </li>
+                <li>
+                    <a href="reviews.html" class="nav__link">Отзывы</a>
+                </li>
+                <li>
+                    <a href="contacts.html" class="nav__link">Контакты</a>
+                </li>
+            </ul>
+
+            <ul class="logging _abs _right _center_y">
+                <li>
+                    <a class="btn btn-modal" href="#log-in">Вход</a>
+                </li>
+                <li>
+                    <a class="btn btn-modal" href="#reg">Регистрация</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- ...................................... 
+    
+        PORTFOLIO
+    
+        ...................................... -->
+        
+        <div class="_abs _center_x _top content__wrapper">
+            <!-- Modal HTML embedded directly into document -->
+            <form id="log-in" class="login_form modal _abs _top _center" action="php/login.php" target="_blank">
+                <h3>Please login to continue</h3>
+                <p><label>Username:</label><input type="text" /></p>
+                <p><label>Password:</label><input type="password" /></p>
+                <p><input type="submit" value="Login" /></p>
+            </form>
+
+            <form id="reg" class="login_form modal _abs _top _center_x" action="mailto:mishin.nikolay.d3@gmail.com">
+                <fieldset class="data-system"><legend>Системные данные</legend>
+                    <div class="form-row line">
+                        <label>ID пользователя</label>
+                        <div class="form-item">
+                            <input type="text" name="text_input" value="12345" disabled>
+                        </div>
+                    </div>
+                </fieldset>
+                
+                <fieldset class="data-user"><legend>Данные пользователя</legend>
+                    <div class="form-row line">
+                        <label for="name">Имя пользователя:</label>
+                        <div class="form-item">
+                            <input id="name" type="text" placeholder="Введите имя" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="email">Email:</label>
+                        <div class="form-item">
+                            <input id="email" type="email" placeholder="Введите почту" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="password">Password:</label>
+                        <div class="form-item">
+                            <input id="password" type="password" placeholder="Введите пароль" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="data-private"><legend>Личные данные</legend>
+                    <div class="form-row line">
+                        <label for="city">Город:</label>
+                        <div class="form-item">
+                            <input id="city" type="text" placeholder="Введите город" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="date">Дата:</label>
+                        <div class="form-item">
+                            <input id="date" type="password" placeholder="дд/мм/гггг" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="select-city">Выберите город</label>
+                        <div class="form-item">
+                            <select id="select-city" name="select-city" size="1" required>
+                                <option value="" disabled selected>Выберите город</option>
+                                
+                                <optgroup label="Город">
+                                    <option value="Moscow">Москва</option>
+                                    <option value="Kiev">Киев</option>
+                                    <option value="Minsk">Минск</option>
+                                    <option value="Tokio">Токио</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row line">
+                        <label for="file">Прикрепите файл</label>
+                        <div class="form-item">
+                            <input id="file" type="file" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="policy"> 
+                    <input class="checkbox" type="checkbox" name="terms" required> Я принимаю условия <a href="#" target="_blank">Пользовательского соглашения</a> и даю своё согласие на обработку моей персональной информации на условиях, определенных <a href="#" target="_blank">Политикой конфиденциальности</a>.
+                </div>
+            
+                <div class="form-row line-item">
+                    <div class="line">
+                        <input class="btn" type="submit">
+                    </div>
+                    <div class="line">
+                        <input class="btn" type="reset">
+                    </div>
+                </div>
+            </form>
+            
+            <div class="_rel _center_x wrapper sec-1">
+                <h2>Портфолио</h2>
+            </div>
+
+            <!-- ...................................... 
+    
+            FOOTER
+        
+            ...................................... -->
+        
+            <div class="_rel _center_x wrapper footer">
+                <h2>Подвал сайта</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Remember to include jQuery :) -->
+    <script src="_libs/_js/jquery_3.3.1/jquery.min.js"></script>
+    <!-- jQuery Modal -->
+    <script src="_libs/_js/jquery-modal_0.9.1/jquery.modal.min.js"></script>
+    
+    <!-- Свой js файл со скриптами -->
+    <script src="js/main.js"></script>
+</body>
+</html>

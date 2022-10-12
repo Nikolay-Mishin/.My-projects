@@ -1,0 +1,74 @@
+/* ...................................... 
+
+    	BASE
+		
+...................................... */
+
+/* Remove outline on the forms and links */
+/*
+input, textarea, select, 
+:hover, :active, :focus {
+	outline: 0;
+	outline-style: none;
+	outline-offset: 0;
+	border: none;
+}
+
+html, body {
+	height: 100%;
+	min-width: 320px;
+}
+*/
+
+body {
+    font:  12px/1.5 'Georgia';
+	color: #9c8c6a;
+    background: url("../img/header_gradient.png") repeat-x ,
+                url("../img/main_bg.jpg");
+}
+h1 a {
+    font: 400 57px/1.2 'LadyCopra', serif;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+}
+.section_heading {
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
+    color: #545454;
+    font:400 15px/1.5 'InterstateCondensedBold';
+    text-transform: uppercase;
+    display: inline-block;
+}
+.section_heading + a {
+	display: inline-block;
+}
+.block_heading > a {
+	text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.39);
+	color: #278f7f;
+	font: 400 20px/1.1 'Geogia';
+}
+a {
+    font: italic 11px/15px 'Georgia';
+    text-decoration: none;
+    color: #278f7f;
+}
+
+div:not(.logo) a {
+    .transition(all, 1s);
+
+    &:hover, &:active, &:focus {
+        color: #46a4e2;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        width:760px;
+        display: block;
+    }
+
+    @media (min-width: 1027px) {
+        width: 1027px;
+    }
+}

@@ -1,0 +1,71 @@
+/* ...................................... 
+    
+    	SEARCH
+    
+...................................... */
+
+.search {
+    margin: 25px 0 20px 0;
+
+    @media (min-width: 768px) {
+		margin: 45px 0 20px 0;
+    }
+
+    @media (min-width: 1027px) {
+        margin: 44px 6px 0 0;
+    }
+}
+.input-wrapper {
+    display: inline;
+    position: relative;
+}
+input[type="search"],
+input[type="email"] {
+    -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+            border-radius: 15px;
+    text-shadow: 0.5px 0.9px 0 rgba(255, 255, 255, 0.5);
+    color: #898989;
+    font-style: italic;
+    padding: 2px 30px 2px 15px;
+    outline: 0;
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.5);
+
+    .transition(all, 1s);
+
+    &:hover, &:active, &:focus {
+        box-shadow: inset 2px 2px 1px rgba(54, 235, 132, 1);
+    }
+}
+.search input[type="search"] {
+	@media (min-width: 768px) {
+        width: 175px;
+    }
+
+    @media (min-width: 1027px) {
+        width: 211px;
+    }
+}
+.search input[type="submit"],
+.subscribe input[type="submit"] {
+    background: none;
+    border: none;
+    font-family: 'FontAwesome';
+    color: #898989;
+    position: absolute;
+    right: 5px;
+}
+.search input[type="submit"] {
+	@media (min-width: 768px) {
+        top: -3px;
+    }
+}
+
+.hot-news:after,
+.search:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}

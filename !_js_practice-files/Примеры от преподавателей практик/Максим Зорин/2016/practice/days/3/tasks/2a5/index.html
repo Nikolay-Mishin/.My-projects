@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .sort-by { cursor: pointer; }
+    </style>
+</head>
+<body>
+    <p>Обратная сортировка.</p>
+    <button onclick="test()">Пуск!</button> <br>
+    <table>
+        <thead>
+        <tr>
+            <th class="sort-by" onclick="showTable(compareLastName)">фамилия
+            <th class="sort-by" onclick="showTable(compareFirstName)">имя
+            <th class="sort-by" onclick="showTable(compareGroup)">группа
+            <th class="sort-by" onclick="showTable(compareAge)">возраст
+            <th class="sort-by" onclick="showTable(compareGender)">пол
+        </thead>
+        <tbody id="students"></tbody>
+    </table>
+
+    <script src="../data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

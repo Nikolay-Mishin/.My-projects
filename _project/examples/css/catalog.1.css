@@ -1,0 +1,279 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {padding: 20px;}
+
+section {
+    max-width: 1200px;
+    margin-top: 20px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+section:not(.header) {
+    background-color: antiquewhite;
+    position: relative;
+    left: 50%;
+    /*margin-right: -50%;*/
+    transform: translate(-50%, 0);
+}
+
+/* ...................................... 
+    
+    HEADER
+    
+    ...................................... */
+
+.header {z-index: 1100;}
+
+.title-1 {
+    color: rgb(124, 54, 188);
+    color: rgba(124, 54, 188, 0.35);
+    font-size: 28px;
+    letter-spacing: 1px;
+    transition: all 0.2s cubic-bezier(.45, -0.45, .61, 1.47);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.menu {background-color: white;}
+
+/* задаем цвет фона для контейнера nav. */
+.navigation {
+    max-width: 1100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: 10px auto;
+    padding: 0;
+    background-color: aqua;
+    border-radius: 30px;
+    z-index: 1050;
+}
+
+/* убираем отступы и поля, а также list-style для "ul", 
+ * и добавляем "position: relative" */
+
+.navigation ul {
+    /*
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    */
+
+    position: relative;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* применяем inline-block позиционирование к элементам навигации */
+.navigation ul li {
+    display: inline-block;
+    /*margin: 0px -7px 0 0;*/
+}
+
+/* стилизуем ссылки */
+.navigation a {
+    display: block;
+    padding: 0 25px;
+    font-size: 20px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.navigation a:not(.title-1) {
+    color: #FFF;
+    font-size: 20px;
+}
+
+/* изменяем цвет фона при наведении курсора */
+.navigation a:not(.title-1):hover {background-color: #000000;}
+
+.title-1:hover {text-decoration: underline;}
+
+/* измените ' +' на любой другой символ, если нужно
+ */
+li > a:after { content:  ' >';  transform: rotate(-90deg); }
+ul ul li > a:after { content:  ' >'; }
+li > a:only-child:after { content: ''; }
+
+/* скрываем выпадающие списки по умолчанию
+ * и задаем абсолютное позиционирование */
+ .navigation ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #E64A19;
+}
+
+/* отображаем выпадающий список при наведении */
+.navigation ul li:hover > ul {
+    display: inherit;
+}
+
+/* первый уровень выпадающего списка */
+.navigation ul ul li {
+    min-width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* второй, третий и последующие уровни 
+ * смещаем 2 и 3 уровни влево 
+ * на значение длины первого уровня.
+*/
+nav ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+/* ...................................... 
+
+    PORTFOLIO
+
+    ...................................... */
+
+.table {padding: 10px;}
+
+td {padding-top: 10px;}
+
+.col-1 {
+    width: 150px;
+    vertical-align: top;
+}
+
+.col-2 {
+    width: 400px;
+    vertical-align: top;
+}
+
+.border {
+    border: 3px solid black;
+    border-color: black;
+}
+
+.border-2 {
+    border-right: 3px solid black;
+    border-color: black;
+}
+
+.list-main {list-style: decimal;}
+
+.list {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.font {font-weight: 700;}
+
+/* ----- catalog ----- */
+
+.profile-card {margin-bottom: 30px;}
+
+.product-item {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 10px 5px 10px;
+  border: 1px solid #eee;
+  background: white;
+  font-family: "Open Sans";
+  overflow: hidden;
+  transition: .4s linear;
+}
+.product-img {transition: 1s ease-in-out;}
+.product-img:hover {transform: scale(1.1);}
+.product-img img {
+  display: block;
+  width: 100%;
+}
+.product-list {margin-top: 15px;}
+.product-list h3 {
+  font-weight: 700;
+  color: #39404B;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 2;
+}
+.price {
+  color: #E34D38;
+  display: block;
+  margin-bottom: 12px;
+}
+.stars {
+  height: 14px;
+  line-height: 14px;
+  margin: 7px 0;
+}
+.stars:before {
+  content: "\f005\f005\f005\f005\f006";
+  color: #EFB71C;
+  font-size: 14px;
+  font-family: FontAwesome;
+}
+.actions {
+  border-top: 1px solid #eee;
+  padding-top: 4px;
+  font-size: 13px;
+  height: 30px;
+  line-height: 30px;
+}
+.actions:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.add-to-cart, .add-to-links {float: left;}
+.cart-button {
+  text-decoration: none;
+  color: #8C877C;
+  padding-right: 20px;
+  border-right: 1px solid #ddd;
+  transition: .4s linear;
+}
+.cart-button:before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  margin-right: 10px;
+}
+.add-to-cart:hover .cart-button, .wishlist:hover, .compare:hover {color: #E34D38;}
+.wishlist, .compare {
+  color: #8C877C;
+  padding-left: 20px;
+  transition: .4s linear;
+}
+.wishlist:after, .compare:after {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 13px;
+}
+.wishlist:after {content: "\f004";}
+.compare:after {content: "\f079";}
+
+/* ...................................... 
+
+    FOOTER
+
+    ...................................... */
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    margin-top: 10px;
+    transform: rotate(-90deg);
+}
+
+img {margin-top: 20px;}
+
+.section-2 p {margin-top: 10px;}
+
+h2, h3, form, label {margin-top: 10px;}
+h3, label {margin-bottom: 10px;}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <ul class="main-menu">
+    <li class="home"><a href="#">Home</a>
+    <li class="groups"><a href="#/groups">Groups</a>
+    <li class="students"><a href="#/students">Students</a>
+  </ul>
+
+  <main class="tabs">
+    <div class="loading active">Loading...</div>
+    <div class="home">Home</div>
+    <div class="groups">Groups</div>
+
+    <div class="students">
+      <h1>Students</h1>
+      <p><a href="#/new">New student</a></p>
+      <table border="1">
+        <thead>
+        <th>Фамилия
+        <th>Имя
+        <th>Группа
+        <th>Возраст
+        <th>Пол
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="edit">
+      <table>
+        <tbody>
+        <tr><td>ID:      </td><td><input name="id" type="text" disabled></td></tr>
+        <tr><td>Фамилия: </td><td><input name="name-last" type="text"></td></tr>
+        <tr><td>Имя:     </td><td><input name="name-first" type="text"></td></tr>
+        <tr><td>Группа:  </td><td>
+          <select name="group"></select>
+        </td></tr>
+        <tr><td>Возраст: </td><td><input name="age" type="number"></td></tr>
+        <tr><td>Пол:     </td><td>
+          <input name="gender" type="radio" value="f">Ж
+          <input name="gender" type="radio" value="m">М
+        </td></tr>
+        </tbody>
+      </table>
+      <ul class="warning"></ul>
+      <button class="save">Save</button>
+      <button class="delete">Delete</button>
+    </div>
+  </main>
+
+  <script src="../../data/people.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

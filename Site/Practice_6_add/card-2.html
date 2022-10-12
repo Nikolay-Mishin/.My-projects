@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>UI Design - Product Card</title>
+
+	<!-- Подключение веб-шрифтов -->
+	<!-- <link rel="stylesheet" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Подключаем bootstrap_4.1.3 -->
+	<!-- <link rel="stylesheet" href="../_libs/bootstrap_4.1.3/css/bootstrap.min.css"> -->
+	<!-- jQuery RateYo | 2.2.0 | 2.3.4 -->
+	<!-- <link rel="stylesheet" href="../_libs/_js/jquery-rateyo_2.2.0/jquery.rateyo.min.css"> -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.2.0/jquery.rateyo.min.css">
+
+	<!-- Подключаем свой .css файл -->
+	<!-- <link rel="stylesheet" href="../_libs/_css/_snipets.css"> -->
+	<link rel="stylesheet" href="css/card-2.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<svg class="header" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+			<polygon fill="white" points="0,0 100,100 0,100"/>
+		</svg>
+
+		<div class="card-container">
+			<div class="card-body">
+				<div class="side side-back">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="product-image col-5">
+								<img src="img/nmvpc3ge_4_LRG.jpg" alt="Shoes" />
+							</div>
+							<div class="features col-7">
+								<h2>Features</h2>
+								<ul>
+									<li>
+									M Select™ DRY seals out water and lets moisture escape so you stay dry when you're on the move 
+									</li>
+									<li>
+									Performance suede leather and mesh upper
+									</li>
+									<li>
+									Bellows, closed-cell foam tongue keeps moisture and debris out 
+									</li>
+									<li>
+									Protective rubber toe cap 
+									</li>
+									<li>
+									Breathable mesh lining 
+									</li>
+									<li>
+									Molded nylon arch shank 
+									</li>
+									<li>
+									Merrell air cushion in the heel absorbs shock and adds stability 
+									</li>
+									<li>
+									Weight: 2lbs 1oz / 940G
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="side side-front">
+					<div class="container-fluid">
+					<div class="row">
+						<div class="product-image col-12 col-lg-5">
+						<img src="img/nmvpc3ge_4_LRG.jpg" alt="Shoes" />
+						</div>
+						<div class="content col-12 col-lg-7">
+						<h2>Waterproof Hiking Shoe</h2>
+						<div class="price-rating">
+							<div class="price">
+								<h3>Price:</h3>
+								<p>$99.99</p>
+							</div>
+							<div class="rating">
+								<h3>Rating: <span class="rating-text">4.5</span></h3>
+								<div id="rateYo"></div>
+							</div>
+						</div>
+						<div class="details">
+							<p>
+							Experience out-of-the-box comfort in this waterproof hiker. With durable leathers, a supportive footbed, and Vibram® traction, all in a versatile package, you won't doubt why Moab stands for Mother-Of-All-Boots™.
+							</p>
+						</div>
+						<div class="button">Add to Cart</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flip">
+			<div class="flip-button">
+				<i class="flip-icon fa fa-angle-double-up" aria-hidden="true"></i>
+			</div>
+			<p>Flip</p>
+		</div>
+	</div>
+
+	<!-- Remember to include jQuery -->
+	<!-- <script src="../_libs/_js/jquery_3.3.1/jquery.min.js"></script> -->
+	<!-- jQuery RateYo | 2.2.0 | 2.3.4 -->
+	<!-- <script src="../_libs/_js/jquery-rateyo_2.2.0/jquery.rateyo.min.js"></script> -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.2.0/jquery.rateyo.min.js"></script>
+
+	<!-- Свой js файл со скриптами -->
+	<link href="js/main.js">
+</body>
+</html>

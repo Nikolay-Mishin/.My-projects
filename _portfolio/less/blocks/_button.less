@@ -1,0 +1,37 @@
+/* ...................................... 
+    
+    	BUTTON
+    
+...................................... */
+
+.button {
+	display: inline-block;
+	
+	font-size: 16px;
+	font-weight: 700;
+	color: @white;
+	
+	padding: 11px 26px 14px;
+	background-color: @blueHeading;
+	border-radius: 60px;
+
+	cursor: pointer;
+
+	.transition-multy(color opacity, 0.5s ease-in);
+
+	&:hover, &:focus {
+		opacity: 0.75;
+		.shadow(@dark);
+
+		color: @dark;
+	}
+
+	&:active { color: @yellow; border: 2px solid @dark; }
+	
+	.fa {
+		font-size: 18px;
+		margin-right: 5px;
+	}
+
+	a { text-decoration: none; }
+}

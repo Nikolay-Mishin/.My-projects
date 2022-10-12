@@ -1,0 +1,50 @@
+* {box-sizing: border-box;}
+body {margin: 0; padding: 0;}
+
+.simbol::before {content: '\00AB';}
+.simbol::after {content: '\00BB';}
+
+.wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+	font-family: san-serif;
+	border: 1px solid black;
+	display: block;
+	padding: 10px;
+}
+.text {color: rgb(81, 171, 255);}
+
+h1, h2, h3 {margin: 0;}
+h1 {font-size: 20px; font-weight: 700;}
+h2 {font-size: 18px; font-weight: 700;}
+h3 {font-size: 14px; font-weight: 400;}
+
+/* ------ HEADER ------ */
+
+header {margin-bottom: 10px;}
+
+/* ------ MAIN ------ */
+
+.img {
+	float: left;
+	width: 10%;
+	max-width: 150px;
+	min-width: 100px;
+	margin-right: 10px;
+}
+.main img {
+	width: 100%;
+	background-size: contain;
+	background-position: top center;
+}
+
+/* ------ FOOTER ------ */
+
+.left {float: left; max-width: 20%; margin-right: 15px;}
+.date {font-weight: 700;}
+
+.right {float: right; max-width: 70%;}
+
+/* ------ очистка обтекания ------ */
+
+.clearfix::after, .clearfix::before {content: ''; display: block; clear: both;}
